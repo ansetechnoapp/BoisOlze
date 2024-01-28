@@ -1,0 +1,256 @@
+
+/*! CSS Used from: http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/uploads/porto_styles/bootstrap5c45.css?ver=6.3.3 ; media=all */
+@media all {
+     *,
+     *::before,
+     *::after {
+          box-sizing: border-box;
+     }
+     a {
+          color: #e2001a;
+          text-decoration: none;
+     }
+     a:hover {
+          color: #b50015;
+     }
+     ::-moz-focus-inner {
+          padding: 0;
+          border-style: none;
+     }
+}
+/*! CSS Used from: http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/css/theme5c45.css?ver=6.3.3 ; media=all */
+@media all {
+     a:hover {
+          color: var(--porto-primary-light-5);
+     }
+     a:active,
+     a:focus {
+          color: var(--porto-primary-dark-5);
+     }
+     .buttons {
+          transition: color 0.15s, background-color 0.15s, border-color 0.15s,
+               box-shadow 0.15s, transform 0.2s;
+          cursor: pointer;
+     }
+     .buttons {
+          display: inline-block;
+          text-align: center;
+          font-weight: 400;
+          vertical-align: middle;
+          touch-action: manipulation;
+          padding: 8px 12px;
+          white-space: nowrap;
+          line-height: 1.5;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+     }
+     .buttons:disabled {
+          cursor: default;
+     }
+     .buttons:hover {
+          text-decoration: none;
+     }
+     .buttons {
+          background-color: var(--porto-primary-color);
+          border-color: var(--porto-primary-color);
+          color: var(--porto-primary-color-inverse);
+     }
+     .buttons:active,
+     .buttons:focus,
+     .buttons:hover {
+          background-color: var(--porto-primary-dark-5);
+          border-color: var(--porto-primary-dark-5);
+          color: var(--porto-primary-color-inverse);
+     }
+     body a {
+          outline: none !important;
+     }
+}
+/*! CSS Used from: http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/css/theme_shop5c45.css?ver=6.3.3 ; media=all */
+@media all {
+     .add-links .add_to_cart_buttons {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          font-size: inherit;
+          text-align: center;
+          vertical-align: top;
+          transition: opacity 0.25s, background-color 0.25s, color 0.25s,
+               border-color 0.25s, left 0.25s, right 0.25s;
+          background-color: var(--porto-shop-add-links-bg-color);
+          border: 1px solid
+               var(--porto-shop-add-links-border-color, transparent);
+          color: var(--porto-shop-add-links-color, #212529);
+     }
+     .add-links .buttons:focus,
+     .add-links .buttons:hover,
+     li.product-default:hover .add-links .add_to_cart_buttons {
+          background-color: var(--porto-primary-color);
+          border-color: var(--porto-primary-color);
+          color: var(--porto-primary-color-inverse, #fff);
+     }
+     .add-links .add_to_cart_buttons {
+          padding: 0 0.625rem;
+          font-size: 0.75rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          z-index: 1;
+          white-space: nowrap;
+     }
+     .add-links .add_to_cart_buttons:before {
+          content: "";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-right: 5px;
+          position: relative;
+          float: left;
+     }
+     .product-type-simple .add-links .add_to_cart_buttons:before {
+          font-family: "Porto";
+          content: "";
+          font-size: 1rem;
+          font-weight: 600;
+          font-size: 0.9375rem;
+     }
+     .add-links .add_to_cart_buttons {
+          height: 36px;
+          line-height: 34px;
+          min-width: 36px;
+     }
+     ul.products .add-links .buttons {
+          overflow: hidden;
+     }
+     li.product-col .add_to_cart_buttons {
+          font-family: var(--porto-add-to-cart-ff), var(--porto-body-ff),
+               sans-serif;
+     }
+}
+/*! CSS Used from: Embedded */
+.add-links .add_to_cart_buttons {
+     padding: 0 1.2em;
+     color: #6f6e6b;
+}
+ul.products .product-col .add-links > *:hover,
+ul.products .product-col .add-links > *:active,
+ul.products .product-col .add-links > *:focus {
+     background-color: #2b2b2d;
+     border-color: #2b2b2d;
+}
+/*! CSS Used fontfaces */
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 400;
+     font-display: block;
+     src: url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.eot);
+     src: url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400d41d.eot#iefix)
+               format("embedded-opentype"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.woff2)
+               format("woff2"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.woff)
+               format("woff"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.ttf)
+               format("truetype"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.svg#fontawesome)
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 900;
+     font-display: block;
+     src: url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.eot);
+     src: url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900d41d.eot#iefix)
+               format("embedded-opentype"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.woff2)
+               format("woff2"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.woff)
+               format("woff"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.ttf)
+               format("truetype"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.svg#fontawesome)
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 300;
+     src: url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.eot);
+     src: url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300d41d.eot#iefix)
+               format("embedded-opentype"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.woff2)
+               format("woff2"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.woff)
+               format("woff"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.ttf)
+               format("truetype"),
+          url(http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.svg#fontawesome)
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 400;
+     src: url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.eot");
+     src: url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400d41d.eot#iefix")
+               format("embedded-opentype"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.woff2")
+               format("woff2"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.woff")
+               format("woff"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.ttf")
+               format("truetype"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 900;
+     src: url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.eot");
+     src: url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900d41d.eot#iefix")
+               format("embedded-opentype"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.woff2")
+               format("woff2"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.woff")
+               format("woff"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.ttf")
+               format("truetype"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 400;
+     font-display: block;
+     src: url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.eot");
+     src: url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400d41d.eot#iefix")
+               format("embedded-opentype"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.woff2")
+               format("woff2"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.woff")
+               format("woff"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.ttf")
+               format("truetype"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 900;
+     font-display: block;
+     src: url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.eot");
+     src: url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900d41d.eot#iefix")
+               format("embedded-opentype"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.woff2")
+               format("woff2"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.woff")
+               format("woff"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.ttf")
+               format("truetype"),
+          url("http://localhost/projetBois/boisCopy2/www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.svg#fontawesome")
+               format("svg");
+}

@@ -1,0 +1,23 @@
+﻿[
+	{
+		"image": "REKORD-Braunkohlebriketts-als-Palette-40-x-25-kg-11-300x300.jpg",
+		"image2": "REKORD-Braunkohlebriketts-als-Palette-40-x-25-kg-12-300x300.jpg",
+		"name": "REKORD Braunkohlebriketts als Palette (40 x 25 kg)",
+		"price": "499,00",
+		"id": "2289"
+	},
+	{
+		"image": "REKORD-Braunkohlebriketts-als-Palette-Folie-90-x-10-kg-11-300x300.jpg",
+		"image2": "REKORD-Braunkohlebriketts-als-Palette-Folie-90-x-10-kg-12-300x300.jpg",
+		"name": "REKORD Braunkohlebriketts als Palette Folie (90 x 10 kg)",
+		"price": "499,00",
+		"id": "2297"
+	},
+	{
+		"image": "REKORD-Braunkohlebriketts-Palette-Tuete-90-x-10-kg-11-300x300.jpg",
+		"image2": "REKORD-Braunkohlebriketts-Palette-Tuete-90-x-10-kg-12-300x300.jpg",
+		"name": "REKORD Braunkohlebriketts Palette Tüte (90 x 10 kg)",
+		"price": "499,00",
+		"id": "2304"
+	}
+]

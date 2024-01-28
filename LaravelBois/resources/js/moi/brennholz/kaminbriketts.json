@@ -1,0 +1,41 @@
+﻿[
+    {
+        "prod_id": "2289",
+        "name": "REKORD Braunkohlebriketts (25 kg)",
+        "price": "499,00€",
+        "mini-desc": "Produkt-Highlights:\r\nHeizwert : 19 MJ/kg\r\nAsche : 4,5 %\r\nAnwendung : Heizen\r\nEinzelpack : 25 kg",
+        "categories": "KAMINBRIKETTS",
+        "desc": "Heizwert : 19 MJ/kg\r\nAsche : 4,5 %\r\nAnwendung : Heizen\r\nAnwendungsbereich : Kaminofen, Kachelofen, Festbrennstoffkessel\r\nMenge : 40 Bündel à 25 kg\r\nEinzelgebinde : 25 kg à 44 Steine\r\nVersandgewicht : 1070 kg\r\nGröße : 1200 mm x 800 mm x 1060 mm",
+        "img": "REKORD-Braunkohlebriketts-als-Palette-40-x-25-kg-11-150x150.jpg",
+        "img1": "REKORD-Braunkohlebriketts-als-Palette-40-x-25-kg-13-150x150.jpg",
+        "img2": "REKORD-Braunkohlebriketts-als-Palette-40-x-25-kg-14-150x150.jpg",
+        "img3": "REKORD-Braunkohlebriketts-als-Palette-40-x-25-kg-15-150x150.jpg",
+		"image_link": "rekord-braunkohlebriketts-25-kg"
+    },
+    {
+        "prod_id": "2297",
+        "name": "REKORD Braunkohlebriketts als Palette Folie (90 x 10 kg)",
+        "price": "499,00€",
+        "mini-desc": "Produkt-Highlights:\r\nHeizwert : 19 MJ/kg\r\nAsche : 4,5 %\r\nAnwendung : Heizen\r\nMenge : 90 Pakete à 10 kg\r\nEinzelpack : 10 kg à 18 Steine",
+        "categories": "KAMINBRIKETTS",
+        "desc": "Heizwert : 19 MJ/kg\r\nAsche : 4,5 %\r\nAnwendung : Heizen\r\nAnwendungsbereich : Kaminofen, Kachelofen, Festbrennstoffkessel\r\nMenge : 90 Pakete à 10 kg\r\nEinzelpack : 10 kg à 18 Steine\r\nVersandgewicht : 965 kg\r\nGröße : 1200 mm x 800 mm x 1250 mm",
+        "img": "REKORD-Braunkohlebriketts-als-Palette-Folie-90-x-10-kg-11-150x150.jpg",
+        "img1": "REKORD-Braunkohlebriketts-als-Palette-Folie-90-x-10-kg-12-150x150.jpg",
+        "img2": "REKORD-Braunkohlebriketts-als-Palette-Folie-90-x-10-kg-13-150x150.jpg",
+        "img3": "REKORD-Braunkohlebriketts-als-Palette-Folie-90-x-10-kg-14-150x150.jpg",
+		"image_link": "rekord-braunkohlebriketts-als-palette-folie-90-x-10-kg"
+    },
+    {
+        "prod_id": "2304",
+        "name": "REKORD Braunkohlebriketts Palette Tüte (90 x 10 kg)",
+        "price": "499,00€",
+        "mini-desc": "Produkt-Highlights:\r\nHeizwert : 19 MJ/kg\r\nAsche : 4,5 %\r\nAnwendung : Heizen\r\nMenge : 90 Pakete à 10 kg\r\nEinzelpack : 10 kg à 18 Steine",
+        "categories": "KAMINBRIKETTS",
+        "desc": "Heizwert : 19 MJ/kg\r\nAsche : 4,5 %\r\nAnwendung : Heizen\r\nAnwendungsbereich : Kaminofen, Kachelofen, Festbrennstoffkessel\r\nMenge : 90 Pakete à 10 kg\r\nEinzelpack : 10 kg à 18 Steine\r\nVersandgewicht : 965 kg\r\nGröße : 1200 mm x 800 mm x 1270 mm",
+        "img": "REKORD-Braunkohlebriketts-Palette-Tuete-90-x-10-kg-11-150x150.jpg",
+        "img1": "REKORD-Braunkohlebriketts-Palette-Tuete-90-x-10-kg-12-150x150.jpg",
+        "img2": "REKORD-Braunkohlebriketts-Palette-Tuete-90-x-10-kg-13-150x150.jpg",
+        "img3": "REKORD-Braunkohlebriketts-Palette-Tuete-90-x-10-kg-14-150x150.jpg",
+		"image_link": "rekord-braunkohlebriketts-palette-tuete-90-x-10-kg"
+    }
+]

@@ -1,0 +1,6176 @@
+/*! CSS Used from: Embedded */
+.share-links,
+.share-twitter {
+     display: none !important;
+}
+.share-facebook,
+#cookie-notice {
+     display: none !important;
+}
+.home-ads {
+     display: none !important;
+}
+.cookie-notice-container {
+     display: none !important;
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/wysija-newsletters/css/validationEngine.jquery.css?ver=2.22 ; media=all */
+@media all {
+     .widget_wysija_cont .wysija-submit {
+          display: block;
+          margin-top: 20px;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-includes/css/dist/block-library/style.min.css?ver=6.1.1 ; media=all */
+@media all {
+     .wp-block-image img {
+          height: auto;
+          max-width: 100%;
+          vertical-align: bottom;
+     }
+     .wp-block-image img {
+          box-sizing: border-box;
+     }
+     ul {
+          box-sizing: border-box;
+     }
+     .wp-element-button {
+          cursor: pointer;
+     }
+     :root {
+          --wp--preset--font-size--normal: 16px;
+          --wp--preset--font-size--huge: 42px;
+     }
+     html :where([style*="border-width"]) {
+          border-style: solid;
+     }
+     html :where(img[class*="wp-image-"]) {
+          height: auto;
+          max-width: 100%;
+     }
+     figure {
+          margin: 0 0 1em;
+     }
+}
+/*! CSS Used from: Embedded */
+.wp-block-image {
+     margin: 0 0 1em;
+}
+/*! CSS Used from: Embedded */
+:root {
+     --yith-wcan-filters_colors_titles: #434343;
+     --yith-wcan-filters_colors_background: #ffffff;
+     --yith-wcan-filters_colors_accent: #a7144c;
+     --yith-wcan-filters_colors_accent_r: 167;
+     --yith-wcan-filters_colors_accent_g: 20;
+     --yith-wcan-filters_colors_accent_b: 76;
+     --yith-wcan-color_swatches_border_radius: 100%;
+     --yith-wcan-color_swatches_size: 30px;
+     --yith-wcan-labels_style_background: #ffffff;
+     --yith-wcan-labels_style_background_hover: #a7144c;
+     --yith-wcan-labels_style_background_active: #a7144c;
+     --yith-wcan-labels_style_text: #434343;
+     --yith-wcan-labels_style_text_hover: #ffffff;
+     --yith-wcan-labels_style_text_active: #ffffff;
+     --yith-wcan-anchors_style_text: #434343;
+     --yith-wcan-anchors_style_text_hover: #a7144c;
+     --yith-wcan-anchors_style_text_active: #a7144c;
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/woocommerce/assets/css/prettyPhoto.css?ver=3.1.6 ; media=all */
+@media all {
+     :root {
+          --woocommerce: #a46497;
+          --wc-green: #7ad03a;
+          --wc-red: #a00;
+          --wc-orange: #ffba00;
+          --wc-blue: #2ea2cc;
+          --wc-primary: #a46497;
+          --wc-primary-text: white;
+          --wc-secondary: #ebe9eb;
+          --wc-secondary-text: #515151;
+          --wc-highlight: #77a464;
+          --wc-highligh-text: white;
+          --wc-content-bg: #fff;
+          --wc-subtext: #767676;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-wishlist/assets/css/style.css?ver=3.15.0 ; media=all */
+@media all {
+     a.add_to_wishlist {
+          cursor: pointer;
+     }
+     .yith-wcwl-add-to-wishlist {
+          margin-top: 10px;
+     }
+     .yith-wcwl-add-button > a i {
+          margin-right: 10px;
+     }
+     .yith-wcwl-add-button a.add_to_wishlist {
+          margin: 0;
+          box-shadow: none;
+          text-shadow: none;
+     }
+}
+/*! CSS Used from: Embedded */
+body {
+     --wp--preset--color--black: #000000;
+     --wp--preset--color--cyan-bluish-gray: #abb8c3;
+     --wp--preset--color--white: #ffffff;
+     --wp--preset--color--pale-pink: #f78da7;
+     --wp--preset--color--vivid-red: #cf2e2e;
+     --wp--preset--color--luminous-vivid-orange: #ff6900;
+     --wp--preset--color--luminous-vivid-amber: #fcb900;
+     --wp--preset--color--light-green-cyan: #7bdcb5;
+     --wp--preset--color--vivid-green-cyan: #00d084;
+     --wp--preset--color--pale-cyan-blue: #8ed1fc;
+     --wp--preset--color--vivid-cyan-blue: #0693e3;
+     --wp--preset--color--vivid-purple: #9b51e0;
+     --wp--preset--color--primary: #e2001a;
+     --wp--preset--color--secondary: #e2001a;
+     --wp--preset--color--tertiary: #fea21c;
+     --wp--preset--color--quaternary: #0e0f11;
+     --wp--preset--color--dark: #222529;
+     --wp--preset--color--light: #ffffff;
+     --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(
+          135deg,
+          rgba(6, 147, 227, 1) 0%,
+          rgb(155, 81, 224) 100%
+     );
+     --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(
+          135deg,
+          rgb(122, 220, 180) 0%,
+          rgb(0, 208, 130) 100%
+     );
+     --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(
+          135deg,
+          rgba(252, 185, 0, 1) 0%,
+          rgba(255, 105, 0, 1) 100%
+     );
+     --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(
+          135deg,
+          rgba(255, 105, 0, 1) 0%,
+          rgb(207, 46, 46) 100%
+     );
+     --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(
+          135deg,
+          rgb(238, 238, 238) 0%,
+          rgb(169, 184, 195) 100%
+     );
+     --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(
+          135deg,
+          rgb(74, 234, 220) 0%,
+          rgb(151, 120, 209) 20%,
+          rgb(207, 42, 186) 40%,
+          rgb(238, 44, 130) 60%,
+          rgb(251, 105, 98) 80%,
+          rgb(254, 248, 76) 100%
+     );
+     --wp--preset--gradient--blush-light-purple: linear-gradient(
+          135deg,
+          rgb(255, 206, 236) 0%,
+          rgb(152, 150, 240) 100%
+     );
+     --wp--preset--gradient--blush-bordeaux: linear-gradient(
+          135deg,
+          rgb(254, 205, 165) 0%,
+          rgb(254, 45, 45) 50%,
+          rgb(107, 0, 62) 100%
+     );
+     --wp--preset--gradient--luminous-dusk: linear-gradient(
+          135deg,
+          rgb(255, 203, 112) 0%,
+          rgb(199, 81, 192) 50%,
+          rgb(65, 88, 208) 100%
+     );
+     --wp--preset--gradient--pale-ocean: linear-gradient(
+          135deg,
+          rgb(255, 245, 203) 0%,
+          rgb(182, 227, 212) 50%,
+          rgb(51, 167, 181) 100%
+     );
+     --wp--preset--gradient--electric-grass: linear-gradient(
+          135deg,
+          rgb(202, 248, 128) 0%,
+          rgb(113, 206, 126) 100%
+     );
+     --wp--preset--gradient--midnight: linear-gradient(
+          135deg,
+          rgb(2, 3, 129) 0%,
+          rgb(40, 116, 252) 100%
+     );
+     --wp--preset--duotone--dark-grayscale: url(https://www.holzelektro.com/#wp-duotone-dark-grayscale);
+     --wp--preset--duotone--grayscale: url(https://www.holzelektro.com/#wp-duotone-grayscale);
+     --wp--preset--duotone--purple-yellow: url(https://www.holzelektro.com/#wp-duotone-purple-yellow);
+     --wp--preset--duotone--blue-red: url(https://www.holzelektro.com/#wp-duotone-blue-red);
+     --wp--preset--duotone--midnight: url(https://www.holzelektro.com/#wp-duotone-midnight);
+     --wp--preset--duotone--magenta-yellow: url(https://www.holzelektro.com/#wp-duotone-magenta-yellow);
+     --wp--preset--duotone--purple-green: url(https://www.holzelektro.com/#wp-duotone-purple-green);
+     --wp--preset--duotone--blue-orange: url(https://www.holzelektro.com/#wp-duotone-blue-orange);
+     --wp--preset--font-size--small: 13px;
+     --wp--preset--font-size--medium: 20px;
+     --wp--preset--font-size--large: 36px;
+     --wp--preset--font-size--x-large: 42px;
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.6.4 ; media=all */
+@media all {
+     .wpcf7 .screen-reader-response {
+          position: absolute;
+          overflow: hidden;
+          clip: rect(1px, 1px, 1px, 1px);
+          clip-path: inset(50%);
+          height: 1px;
+          width: 1px;
+          margin: -1px;
+          padding: 0;
+          border: 0;
+          word-wrap: normal !important;
+     }
+     .wpcf7 form .wpcf7-response-output {
+          margin: 2em 0.5em 1em;
+          padding: 0.2em 1em;
+          border: 2px solid #00a0d2;
+     }
+     .wpcf7 form.init .wpcf7-response-output {
+          display: none;
+     }
+     .wpcf7-form-control-wrap {
+          position: relative;
+     }
+     .wpcf7-spinner {
+          visibility: hidden;
+          display: inline-block;
+          background-color: #23282d;
+          opacity: 0.75;
+          width: 24px;
+          height: 24px;
+          border: none;
+          border-radius: 100%;
+          padding: 0;
+          margin: 0 24px;
+          position: relative;
+     }
+     .wpcf7-spinner::before {
+          content: "";
+          position: absolute;
+          background-color: #fbfbfc;
+          top: 4px;
+          left: 4px;
+          width: 6px;
+          height: 6px;
+          border: none;
+          border-radius: 100%;
+          transform-origin: 8px 8px;
+          animation-name: spin;
+          animation-duration: 1000ms;
+          animation-timing-function: linear;
+          animation-iteration-count: infinite;
+     }
+     @media (prefers-reduced-motion: reduce) {
+          .wpcf7-spinner::before {
+               animation-name: blink;
+               animation-duration: 2000ms;
+          }
+     }
+     .wpcf7 .wpcf7-submit:disabled {
+          cursor: not-allowed;
+     }
+     .wpcf7 input[type="email"] {
+          direction: ltr;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/css/colorbox.css?ver=1.4.21 ; media=all */
+@media all {
+     #colorbox,
+     #cboxOverlay,
+     #cboxWrapper {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 10000;
+          overflow: hidden;
+     }
+     #cboxOverlay {
+          position: fixed;
+          width: 100%;
+          height: 100%;
+     }
+     #cboxMiddleLeft,
+     #cboxBottomLeft {
+          clear: left;
+     }
+     #cboxContent {
+          position: relative;
+     }
+     #cboxTitle {
+          margin: 0;
+     }
+     #cboxLoadingOverlay,
+     #cboxLoadingGraphic {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+     }
+     #cboxPrevious,
+     #cboxNext,
+     #cboxSlideshow {
+          cursor: pointer;
+     }
+     #colorbox,
+     #cboxContent {
+          box-sizing: content-box;
+          -moz-box-sizing: content-box;
+          -webkit-box-sizing: content-box;
+     }
+     #cboxOverlay {
+          background: #000;
+     }
+     #colorbox {
+          outline: 0;
+     }
+     #cboxTopLeft {
+          width: 14px;
+          height: 14px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/controls.png)
+               no-repeat 0 0;
+     }
+     #cboxTopCenter {
+          height: 14px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/border.png)
+               repeat-x top left;
+     }
+     #cboxTopRight {
+          width: 14px;
+          height: 14px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/controls.png)
+               no-repeat -36px 0;
+     }
+     #cboxBottomLeft {
+          width: 14px;
+          height: 43px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/controls.png)
+               no-repeat 0 -32px;
+     }
+     #cboxBottomCenter {
+          height: 43px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/border.png)
+               repeat-x bottom left;
+     }
+     #cboxBottomRight {
+          width: 14px;
+          height: 43px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/controls.png)
+               no-repeat -36px -32px;
+     }
+     #cboxMiddleLeft {
+          width: 14px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/controls.png)
+               repeat-y -175px 0;
+     }
+     #cboxMiddleRight {
+          width: 14px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/controls.png)
+               repeat-y -211px 0;
+     }
+     #cboxContent {
+          background: #fff;
+          overflow: visible;
+     }
+     #cboxLoadingOverlay {
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/loading_background.png)
+               no-repeat center center;
+     }
+     #cboxLoadingGraphic {
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/loading.gif)
+               no-repeat center center;
+     }
+     #cboxTitle {
+          position: absolute;
+          bottom: -25px;
+          left: 0;
+          text-align: center;
+          width: 100%;
+          font-weight: bold;
+          color: #7c7c7c;
+     }
+     #cboxCurrent {
+          position: absolute;
+          bottom: -25px;
+          left: 58px;
+          font-weight: bold;
+          color: #7c7c7c;
+     }
+     #cboxPrevious,
+     #cboxNext,
+     #cboxSlideshow {
+          border: 0;
+          padding: 0;
+          margin: 0;
+          overflow: visible;
+          position: absolute;
+          bottom: -29px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-compare/assets/images/colorbox/controls.png)
+               no-repeat 0px 0px;
+          width: 23px;
+          height: 23px;
+          text-indent: -9999px;
+     }
+     #cboxPrevious:active,
+     #cboxNext:active,
+     #cboxSlideshow:active {
+          outline: 0;
+     }
+     #cboxPrevious {
+          left: 0px;
+          background-position: -51px -25px;
+     }
+     #cboxPrevious:hover {
+          background-position: -51px 0px;
+     }
+     #cboxNext {
+          left: 27px;
+          background-position: -75px -25px;
+     }
+     #cboxNext:hover {
+          background-position: -75px 0px;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/css/style.css?ver=1670185123 ; media=all */
+@media all {
+     html,
+     body {
+          -webkit-backface-visibility: hidden;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/font-awesome.min.css?ver=3.7.7 ; media=all */
+@media all {
+     .fa,
+     .far,
+     .fas {
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto;
+          line-height: 1;
+     }
+     .fa-bars:before {
+          content: "\f0c9";
+     }
+     .fa-chevron-up:before {
+          content: "\f077";
+     }
+     .fa-clock:before {
+          content: "\f017";
+     }
+     .fa-envelope:before {
+          content: "\f0e0";
+     }
+     .fa-search:before {
+          content: "\f002";
+     }
+     .fa-times:before {
+          content: "\f00d";
+     }
+     .far {
+          font-weight: 400;
+     }
+     .fa,
+     .far,
+     .fas {
+          font-family: "Font Awesome 5 Free";
+     }
+     .fa,
+     .fas {
+          font-weight: 900;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/cookie-notice/css/front.min.css?ver=6.1.1 ; media=all */
+@media all {
+     #cookie-notice {
+          position: fixed;
+          min-width: 100%;
+          height: auto;
+          z-index: 100000;
+          font-size: 13px;
+          letter-spacing: 0;
+          line-height: 20px;
+          left: 0;
+          text-align: center;
+          font-weight: 400;
+          font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto,
+               "Helvetica Neue", sans-serif;
+     }
+     #cookie-notice,
+     #cookie-notice * {
+          -webkit-box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+     }
+     #cookie-notice .cookie-notice-container {
+          display: block;
+     }
+     #cookie-notice.cookie-notice-hidden .cookie-notice-container {
+          display: none;
+     }
+     .cn-position-bottom {
+          bottom: 0;
+     }
+     .cookie-notice-container {
+          padding: 15px 30px;
+          text-align: center;
+          width: 100%;
+          z-index: 2;
+     }
+     .cn-close-icon {
+          position: absolute;
+          right: 15px;
+          top: 50%;
+          margin-top: -10px;
+          width: 15px;
+          height: 15px;
+          opacity: 0.5;
+          padding: 10px;
+          outline: none;
+          cursor: pointer;
+     }
+     .cn-close-icon:hover {
+          opacity: 1;
+     }
+     .cn-close-icon:before,
+     .cn-close-icon:after {
+          position: absolute;
+          content: " ";
+          height: 15px;
+          width: 2px;
+          top: 3px;
+          background-color: rgba(128, 128, 128, 1);
+     }
+     .cn-close-icon:before {
+          transform: rotate(45deg);
+     }
+     .cn-close-icon:after {
+          transform: rotate(-45deg);
+     }
+     #cookie-notice .cn-button {
+          margin: 0 0 0 10px;
+          display: inline-block;
+     }
+     #cookie-notice .cn-button:not(.cn-button-custom) {
+          font-family: -apple-system, BlinkMacSystemFont, Arial, Roboto,
+               "Helvetica Neue", sans-serif;
+          font-weight: 400;
+          font-size: 13px;
+          letter-spacing: 0.25px;
+          line-height: 20px;
+          margin: 0 0 0 10px;
+          text-align: center;
+          text-transform: none;
+          display: inline-block;
+          cursor: pointer;
+          touch-action: manipulation;
+          white-space: nowrap;
+          outline: none;
+          box-shadow: none;
+          text-shadow: none;
+          border: none;
+          -webkit-border-radius: 3px;
+          -moz-border-radius: 3px;
+          border-radius: 3px;
+          text-decoration: none;
+          padding: 8.5px 10px;
+          line-height: 1;
+          color: inherit;
+     }
+     .cn-text-container {
+          margin: 0 0 6px 0;
+     }
+     .cn-text-container,
+     .cn-buttons-container {
+          display: inline-block;
+     }
+     @media all and (max-width: 900px) {
+          .cookie-notice-container #cn-notice-text {
+               display: block;
+          }
+          .cookie-notice-container #cn-notice-buttons {
+               display: block;
+          }
+          #cookie-notice .cn-button {
+               margin: 0 5px 5px 5px;
+          }
+     }
+     @media all and (max-width: 480px) {
+          .cookie-notice-container {
+               padding: 15px 25px;
+          }
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/css/wcfmicon.min.css?ver=6.6.6 ; media=all */
+@media all {
+     .fas {
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto;
+          line-height: 1;
+     }
+     .fa-bars:before {
+          content: "\f0c9";
+     }
+     .fa-chevron-up:before {
+          content: "\f077";
+     }
+     .fa-clock:before {
+          content: "\f017";
+     }
+     .fa-envelope:before {
+          content: "\f0e0";
+     }
+     .fa-search:before {
+          content: "\f002";
+     }
+     .fa-times:before {
+          content: "\f00d";
+     }
+     .fas {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/css/min/wcfm-style-core.css?ver=6.6.6 ; media=all */
+@media all {
+     #cboxOverlay,
+     #cboxWrapper,
+     #colorbox {
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: 9999;
+          overflow: hidden;
+          -webkit-transform: translate3d(0, 0, 0);
+     }
+     #cboxWrapper {
+          max-width: none;
+     }
+     #cboxOverlay {
+          position: fixed;
+          width: 100%;
+          height: 100%;
+     }
+     #cboxBottomLeft,
+     #cboxMiddleLeft {
+          clear: left;
+     }
+     #cboxContent {
+          position: relative;
+     }
+     #cboxTitle {
+          margin: 0;
+     }
+     #cboxLoadingGraphic,
+     #cboxLoadingOverlay {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+     }
+     #cboxNext,
+     #cboxPrevious,
+     #cboxSlideshow {
+          cursor: pointer;
+     }
+     #cboxContent,
+     #colorbox {
+          box-sizing: content-box;
+          -moz-box-sizing: content-box;
+          -webkit-box-sizing: content-box;
+     }
+     #cboxOverlay {
+          background: #000;
+          opacity: 0.9;
+     }
+     #colorbox {
+          outline: 0;
+     }
+     #cboxTopLeft {
+          width: 21px;
+          height: 21px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/controls.png)
+               no-repeat -101px 0;
+     }
+     #cboxTopRight {
+          width: 21px;
+          height: 21px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/controls.png)
+               no-repeat -130px 0;
+     }
+     #cboxBottomLeft {
+          width: 21px;
+          height: 21px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/controls.png)
+               no-repeat -101px -29px;
+     }
+     #cboxBottomRight {
+          width: 21px;
+          height: 21px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/controls.png)
+               no-repeat -130px -29px;
+     }
+     #cboxMiddleLeft {
+          width: 21px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/controls.png)
+               left top repeat-y;
+     }
+     #cboxMiddleRight {
+          width: 21px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/controls.png)
+               right top repeat-y;
+     }
+     #cboxTopCenter {
+          height: 21px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/border.png)
+               0 0 repeat-x;
+     }
+     #cboxBottomCenter {
+          height: 21px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/border.png)
+               0 -29px repeat-x;
+     }
+     #cboxContent {
+          background: #fff;
+          background-color: #fff !important;
+          overflow: hidden;
+          margin-top: 0 !important;
+     }
+     #cboxTitle {
+          position: absolute;
+          bottom: 4px;
+          left: 0;
+          text-align: center;
+          width: 100%;
+          color: #949494;
+     }
+     #cboxCurrent {
+          position: absolute;
+          bottom: 4px;
+          left: 58px;
+          color: #949494;
+     }
+     #cboxLoadingOverlay {
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/loading_background.png)
+               no-repeat center center;
+     }
+     #cboxLoadingGraphic {
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/loading.gif)
+               no-repeat center center;
+     }
+     #cboxNext,
+     #cboxPrevious,
+     #cboxSlideshow {
+          border: 0;
+          padding: 0;
+          margin: 0;
+          overflow: visible;
+          width: auto;
+          background: 0 0;
+     }
+     #cboxNext:active,
+     #cboxPrevious:active,
+     #cboxSlideshow:active {
+          outline: 0;
+     }
+     #cboxSlideshow {
+          position: absolute;
+          bottom: 4px;
+          right: 30px;
+          color: #0092ef;
+     }
+     #cboxPrevious {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/controls.png)
+               no-repeat -75px 0;
+          width: 25px;
+          height: 25px;
+          text-indent: -9999px;
+     }
+     #cboxPrevious:hover {
+          background-position: -75px -25px;
+     }
+     #cboxNext {
+          position: absolute;
+          bottom: 0;
+          left: 27px;
+          background: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/images/colorbox/controls.png)
+               no-repeat -50px 0;
+          width: 25px;
+          height: 25px;
+          text-indent: -9999px;
+     }
+     #cboxNext:hover {
+          background-position: -50px -25px;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/yith-woocommerce-ajax-search/assets/css/yith_wcas_ajax_search.css?ver=1.25.1 ; media=all */
+@media all {
+     .autocomplete-suggestions {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background: #fff;
+          border: 1px solid #ccc;
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px;
+          border-radius: 3px;
+          -moz-box-sizing: border-box;
+          box-sizing: border-box;
+     }
+     form#yith-ajaxsearchform > div {
+          display: flex;
+          flex: auto;
+          flex-wrap: nowrap;
+          max-width: 100%;
+          gap: 10px;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/uploads/porto_styles/theme_css_vars.css?ver=6.3.3 ; media=all */
+@media all {
+     :root {
+          --porto-primary-color: #e2001a;
+          --porto-primary-color-inverse: #ffffff;
+          --porto-secondary-color: #e2001a;
+          --porto-secondary-color-inverse: #ffffff;
+          --porto-tertiary-color: #fea21c;
+          --porto-tertiary-color-inverse: #ffffff;
+          --porto-quaternary-color: #0e0f11;
+          --porto-quaternary-color-inverse: #ffffff;
+          --porto-dark-color: #222529;
+          --porto-dark-color-inverse: #ffffff;
+          --porto-light-color: #ffffff;
+          --porto-light-color-inverse: #222529;
+          --porto-color-dark: #1d2127;
+          --porto-grid-gutter-width: 20px;
+          --porto-body-ff: "Open Sans";
+          --porto-body-fw: 400;
+          --porto-body-fs: 14px;
+          --porto-body-lh: 24px;
+          --porto-body-color: #777777;
+          --porto-body-color-light-5: #848484;
+          --porto-alt-ff: "Shadows Into Light";
+          --porto-alt-fw: 400;
+          --porto-menu-text-transform: uppercase;
+          --porto-add-to-cart-ff: "Poppins";
+          --porto-column-spacing: 10px;
+          --porto-res-spacing: 10px;
+          --porto-fluid-spacing: 20px;
+          --porto-container-spacing: 10px;
+          --porto-primary-dark-5: #c90018;
+          --porto-primary-dark-10: #b00015;
+          --porto-primary-dark-15: #960012;
+          --porto-primary-dark-20: #7d000f;
+          --porto-primary-light-5: #fc001d;
+          --porto-primary-light-7: #ff0724;
+          --porto-primary-light-10: #ff1731;
+          --porto-primary-inverse-dark-10: #e6e6e6;
+          --porto-secondary-dark-5: #c90018;
+          --porto-secondary-dark-10: #b00015;
+          --porto-secondary-dark-15: #960012;
+          --porto-secondary-dark-20: #7d000f;
+          --porto-secondary-light-5: #fc001d;
+          --porto-secondary-light-7: #ff0724;
+          --porto-secondary-light-10: #ff1731;
+          --porto-secondary-inverse-dark-10: #e6e6e6;
+          --porto-tertiary-dark-5: #fe9803;
+          --porto-tertiary-dark-10: #e68902;
+          --porto-tertiary-dark-15: #cd7a01;
+          --porto-tertiary-dark-20: #b46b01;
+          --porto-tertiary-light-5: #ffad36;
+          --porto-tertiary-light-7: #ffb140;
+          --porto-tertiary-light-10: #ffb74f;
+          --porto-tertiary-inverse-dark-10: #e6e6e6;
+          --porto-quaternary-dark-5: #030304;
+          --porto-quaternary-dark-10: #000000;
+          --porto-quaternary-dark-15: #000000;
+          --porto-quaternary-dark-20: #000000;
+          --porto-quaternary-light-5: #1a1c1f;
+          --porto-quaternary-light-7: #1f2125;
+          --porto-quaternary-light-10: #26282d;
+          --porto-quaternary-inverse-dark-10: #e6e6e6;
+          --porto-dark-dark-5: #17191c;
+          --porto-dark-dark-10: #0b0c0e;
+          --porto-dark-dark-15: #000000;
+          --porto-dark-dark-20: #000000;
+          --porto-dark-light-5: #2e3237;
+          --porto-dark-light-7: #33373d;
+          --porto-dark-light-10: #3a3f45;
+          --porto-dark-inverse-dark-10: #e6e6e6;
+          --porto-light-dark-5: #f3f3f3;
+          --porto-light-dark-10: #e6e6e6;
+          --porto-light-dark-15: #d9d9d9;
+          --porto-light-dark-20: #cccccc;
+          --porto-light-light-5: #ffffff;
+          --porto-light-light-7: #ffffff;
+          --porto-light-light-10: #ffffff;
+          --porto-light-inverse-dark-10: #0b0c0e;
+          --porto-placeholder-color: #f4f4f4;
+          --porto-bgc: #fff;
+          --porto-body-bg: #fff;
+          --porto-color-price: #444;
+          --porto-widget-bgc: #fbfbfb;
+          --porto-title-bgc: #f5f5f5;
+          --porto-widget-bc: #ddd;
+          --porto-input-bc: rgba(0, 0, 0, 0.08);
+          --porto-slide-bgc: #e7e7e7;
+          --porto-heading-color: #222529;
+          --porto-heading-light-8: #353a40;
+          --porto-normal-bg: #fff;
+          --porto-gray-bg: #dfdfdf;
+          --porto-gray-1: #f4f4f4;
+          --porto-gray-2: #e7e7e7;
+          --porto-gray-3: #f4f4f4;
+          --porto-gray-4: #ccc;
+          --porto-gray-5: #e7e7e7;
+          --porto-gray-6: #999;
+          --porto-gray-7: #f4f4f4;
+          --porto-gray-8: #f1f1f1;
+          --porto-light-1: #fff;
+          --porto-light-2: #fff;
+          --porto-normal-bc: rgba(0, 0, 0, 0.06);
+          --porto-label-bg1: rgba(255, 255, 255, 0.9);
+     }
+     .container {
+          --porto-container-width: 1200px;
+     }
+     h1 {
+          --porto-h1-ff: "Poppins";
+          --porto-h1-fw: 700;
+          --porto-h1-fs: 36px;
+          --porto-h1-lh: 44px;
+          --porto-h1-color: #222529;
+     }
+     h2 {
+          --porto-h2-ff: "Poppins";
+          --porto-h2-fw: 700;
+          --porto-h2-fs: 30px;
+          --porto-h2-lh: 40px;
+          --porto-h2-color: #222529;
+     }
+     h3 {
+          --porto-h3-ff: "Poppins";
+          --porto-h3-fw: 700;
+          --porto-h3-fs: 14px;
+          --porto-h3-lh: 32px;
+          --porto-h3-color: #222529;
+     }
+     h4 {
+          --porto-h4-ff: "Poppins";
+          --porto-h4-fw: 700;
+          --porto-h4-fs: 16px;
+          --porto-h4-lh: 19px;
+          --porto-h4-color: #222529;
+     }
+     li.menu-item,
+     .sub-menu {
+          --porto-mainmenu-popup-text-color-regular: #777777;
+          --porto-mainmenu-popup-text-color-hover: #777777;
+     }
+     li.menu-item {
+          --porto-mainmenu-popup-text-hbg-color: #f4f4f4;
+          --porto-submenu-item-bbw: 0;
+          --porto-submenu-item-lrp: 15px;
+     }
+     ul.products {
+          --porto-shop-add-links-color: #333333;
+          --porto-shop-add-links-bg-color: #f4f4f4;
+          --porto-shop-add-links-border-color: #f4f4f4;
+     }
+     #header {
+          --porto-header-top-link-fw: 600;
+     }
+     @media (max-width: 575px) {
+          :root {
+               --porto-mobile-fs-scale: 0.9286;
+               --porto-body-fs: 13px;
+               --porto-body-lh: 22px;
+          }
+          h1 {
+               --porto-h1-fs: 33.4286px;
+               --porto-h1-lh: 40.3333px;
+          }
+          h2 {
+               --porto-h2-fs: 27.8571px;
+               --porto-h2-lh: 36.6667px;
+          }
+          h3 {
+               --porto-h3-fs: 13px;
+               --porto-h3-lh: 29.3333px;
+          }
+          h4 {
+               --porto-h4-fs: 14.8571px;
+               --porto-h4-lh: 17.4167px;
+          }
+     }
+     #header .logo {
+          --porto-logo-mw: 170px;
+          --porto-sticky-logo-mw: 140px;
+     }
+     @media (min-width: 992px) and (max-width: 1219px) {
+          .container {
+               --porto-container-width: 960px;
+          }
+     }
+     @media (min-width: 1220px) {
+          #header .logo {
+               --porto-logo-mw: 250px;
+          }
+     }
+     @media (max-width: 991px) {
+          :root {
+               --porto-res-spacing: 20px;
+          }
+          #header .logo {
+               --porto-logo-mw: 160px;
+          }
+     }
+     @media (max-width: 767px) {
+          #header .logo {
+               --porto-logo-mw: 140px;
+          }
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/js_composer/assets/css/js_composer.min.css?ver=6.9.0 ; media=all */
+@media all {
+     .vc_row:after,
+     .vc_row:before {
+          content: " ";
+          display: table;
+     }
+     .vc_row:after {
+          clear: both;
+     }
+     .vc_column_container {
+          width: 100%;
+     }
+     .vc_row {
+          margin-left: -15px;
+          margin-right: -15px;
+     }
+     .vc_clearfix:after,
+     .vc_clearfix:before {
+          content: " ";
+          display: table;
+     }
+     .vc_clearfix:after {
+          clear: both;
+     }
+     .vc_clearfix:after,
+     .vc_clearfix:before {
+          content: " ";
+          display: table;
+     }
+     .vc_clearfix:after {
+          clear: both;
+     }
+     .wpb_content_element {
+          margin-bottom: 35px;
+     }
+     .vc_row.vc_row-no-padding .vc_column-inner {
+          padding-left: 0;
+          padding-right: 0;
+     }
+     .vc_row[data-vc-full-width] {
+          -webkit-transition: opacity 0.5s ease;
+          -o-transition: opacity 0.5s ease;
+          transition: opacity 0.5s ease;
+          overflow: hidden;
+     }
+     .vc_column-inner::after,
+     .vc_column-inner::before {
+          content: " ";
+          display: table;
+     }
+     .vc_column-inner::after {
+          clear: both;
+     }
+     .vc_column_container {
+          padding-left: 0;
+          padding-right: 0;
+     }
+     .vc_column_container > .vc_column-inner {
+          box-sizing: border-box;
+          padding-left: 15px;
+          padding-right: 15px;
+          width: 100%;
+     }
+     .wpb_single_image img {
+          height: auto;
+          max-width: 100%;
+          vertical-align: top;
+     }
+     .wpb_single_image .vc_single_image-wrapper {
+          display: inline-block;
+          vertical-align: top;
+          max-width: 100%;
+     }
+     .wpb_single_image.vc_align_center {
+          text-align: center;
+     }
+     .wpb_single_image.vc_align_left {
+          text-align: left;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/uploads/porto_styles/bootstrap.css?ver=6.3.3 ; media=all */
+@media all {
+     .vc_column_container {
+          position: relative;
+     }
+     .col-lg-3,
+     .col-lg-12,
+     .col-md-4,
+     .col-md-6,
+     .col-md-12 {
+          width: 100%;
+          flex: 0 0 auto;
+     }
+     :root {
+          --bs-blue: #0d6efd;
+          --bs-indigo: #6610f2;
+          --bs-purple: #6f42c1;
+          --bs-pink: #d63384;
+          --bs-red: #dc3545;
+          --bs-orange: #fd7e14;
+          --bs-yellow: #ffc107;
+          --bs-green: #198754;
+          --bs-teal: #20c997;
+          --bs-cyan: #0dcaf0;
+          --bs-white: #fff;
+          --bs-gray: #6c757d;
+          --bs-gray-dark: #343a40;
+          --bs-primary: #e2001a;
+          --bs-secondary: #e2001a;
+          --bs-success: #47a447;
+          --bs-info: #5bc0de;
+          --bs-warning: #ed9c28;
+          --bs-danger: #d2322d;
+          --bs-light: #f8f9fa;
+          --bs-dark: #1d2127;
+          --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto,
+               "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans",
+               sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+               "Segoe UI Symbol", "Noto Color Emoji";
+          --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas,
+               "Liberation Mono", "Courier New", monospace;
+          --bs-gradient: linear-gradient(
+               180deg,
+               rgba(255, 255, 255, 0.15),
+               rgba(255, 255, 255, 0)
+          );
+     }
+     *,
+     *::before,
+     *::after {
+          box-sizing: border-box;
+     }
+     @media (prefers-reduced-motion: no-preference) {
+          :root {
+               scroll-behavior: smooth;
+          }
+     }
+     body {
+          margin: 0;
+          font-family: Open Sans, sans-serif;
+          font-size: 0.875rem;
+          font-weight: 400;
+          line-height: 24px;
+          color: #777;
+          background-color: #fff;
+          -webkit-text-size-adjust: 100%;
+          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     }
+     hr {
+          margin: 1rem 0;
+          color: inherit;
+          background-color: currentColor;
+          border: 0;
+          opacity: 0.25;
+     }
+     hr:not([size]) {
+          height: 1px;
+     }
+     h1,
+     h2,
+     h3,
+     h4 {
+          margin-top: 0;
+          margin-bottom: 0.5rem;
+          font-weight: 500;
+          line-height: 1.2;
+     }
+     h1 {
+          font-size: calc(1.34375rem + 1.125vw);
+     }
+     @media (min-width: 1200px) {
+          h1 {
+               font-size: 2.1875rem;
+          }
+     }
+     h2 {
+          font-size: calc(1.3rem + 0.6vw);
+     }
+     @media (min-width: 1200px) {
+          h2 {
+               font-size: 1.75rem;
+          }
+     }
+     h3 {
+          font-size: calc(1.278125rem + 0.3375vw);
+     }
+     @media (min-width: 1200px) {
+          h3 {
+               font-size: 1.53125rem;
+          }
+     }
+     h4 {
+          font-size: calc(1.25625rem + 0.075vw);
+     }
+     @media (min-width: 1200px) {
+          h4 {
+               font-size: 1.3125rem;
+          }
+     }
+     p {
+          margin-top: 0;
+          margin-bottom: 1rem;
+     }
+     ul {
+          padding-left: 2rem;
+     }
+     ul {
+          margin-top: 0;
+          margin-bottom: 1rem;
+     }
+     ul ul {
+          margin-bottom: 0;
+     }
+     strong {
+          font-weight: bolder;
+     }
+     mark {
+          padding: 0.2em;
+          background-color: #fcf8e3;
+     }
+     a {
+          color: #e2001a;
+          text-decoration: none;
+     }
+     a:hover {
+          color: #b50015;
+     }
+     figure {
+          margin: 0 0 1rem;
+     }
+     img,
+     svg {
+          vertical-align: middle;
+     }
+     button {
+          border-radius: 0;
+     }
+     button:focus:not(:focus-visible) {
+          outline: 0;
+     }
+     input,
+     button,
+     select {
+          margin: 0;
+          font-family: inherit;
+          font-size: inherit;
+          line-height: inherit;
+     }
+     button,
+     select {
+          text-transform: none;
+     }
+     select {
+          word-wrap: normal;
+     }
+     select:disabled {
+          opacity: 1;
+     }
+     button,
+     [type="button"],
+     [type="submit"] {
+          -webkit-appearance: button;
+     }
+     ::-moz-focus-inner {
+          padding: 0;
+          border-style: none;
+     }
+     fieldset {
+          min-width: 0;
+          padding: 0;
+          margin: 0;
+          border: 0;
+     }
+     .container,
+     .container-fluid {
+          width: 100%;
+          padding-right: var(--bs-gutter-x, 10px);
+          padding-left: var(--bs-gutter-x, 10px);
+          margin-right: auto;
+          margin-left: auto;
+     }
+     @media (min-width: 576px) {
+          .container {
+               max-width: 540px;
+          }
+     }
+     @media (min-width: 768px) {
+          .container {
+               max-width: 720px;
+          }
+     }
+     @media (min-width: 992px) {
+          .container {
+               max-width: 960px;
+          }
+     }
+     @media (min-width: 1220px) {
+          .container {
+               max-width: 1200px;
+          }
+     }
+     @media (min-width: 1400px) {
+          .container {
+               max-width: 1200px;
+          }
+     }
+     .row {
+          --bs-gutter-x: 20px;
+          --bs-gutter-y: 0;
+          display: flex;
+          flex-wrap: wrap;
+          margin-top: calc(var(--bs-gutter-y) * -1);
+          margin-right: calc(var(--bs-gutter-x) / -2);
+          margin-left: calc(var(--bs-gutter-x) / -2);
+     }
+     .row > * {
+          flex-shrink: 0;
+          max-width: 100%;
+          padding-right: calc(var(--bs-gutter-x) / 2);
+          padding-left: calc(var(--bs-gutter-x) / 2);
+          margin-top: var(--bs-gutter-y);
+     }
+     @media (min-width: 768px) {
+          .col-md-4 {
+               width: 33.3333333333%;
+          }
+          .col-md-6 {
+               width: 50%;
+          }
+          .col-md-12 {
+               width: 100%;
+          }
+     }
+     @media (min-width: 992px) {
+          .col-lg-3 {
+               width: 25%;
+          }
+          .col-lg-12 {
+               width: 100%;
+          }
+     }
+     .form-control {
+          display: block;
+          width: 100%;
+          padding: 0.375rem 0.75rem;
+          font-size: 0.875rem;
+          font-weight: 400;
+          line-height: 24px;
+          color: #777;
+          background-color: #fff;
+          background-clip: padding-box;
+          border: 1px solid #ccc;
+          appearance: none;
+          border-radius: 0;
+          transition: border-color 0.15s ease-in-out,
+               box-shadow 0.15s ease-in-out;
+     }
+     @media (prefers-reduced-motion: reduce) {
+          .form-control {
+               transition: none;
+          }
+     }
+     .form-control:focus {
+          color: #777;
+          background-color: #fff;
+          border-color: #66afe9;
+          outline: 0;
+          box-shadow: 0 0 0 0.25rem rgba(226, 0, 26, 0.25);
+     }
+     .form-control::placeholder {
+          color: #999;
+          opacity: 1;
+     }
+     .form-control:disabled {
+          background-color: #eee;
+          opacity: 1;
+     }
+     .btn {
+          display: inline-block;
+          font-weight: 400;
+          color: #777;
+          text-align: center;
+          vertical-align: middle;
+          user-select: none;
+          background-color: transparent;
+          border: 1px solid transparent;
+          border-radius: 0;
+     }
+     .btn:hover {
+          color: #777;
+     }
+     .btn:focus {
+          outline: 0;
+          box-shadow: 0 0 0 0.25rem rgba(226, 0, 26, 0.25);
+     }
+     .btn:disabled,
+     fieldset:disabled .btn {
+          pointer-events: none;
+          opacity: 0.65;
+     }
+     .clearfix::after {
+          display: block;
+          clear: both;
+          content: "";
+     }
+     .d-none {
+          display: none !important;
+     }
+     .mt-0 {
+          margin-top: 0 !important;
+     }
+     .me-1 {
+          margin-right: 0.25rem !important;
+     }
+     .me-4 {
+          margin-right: 1.5rem !important;
+     }
+     .mb-0 {
+          margin-bottom: 0 !important;
+     }
+     .mb-3 {
+          margin-bottom: 1rem !important;
+     }
+     .mb-5 {
+          margin-bottom: 3rem !important;
+     }
+     .ms-5 {
+          margin-left: 3rem !important;
+     }
+     .px-4 {
+          padding-right: 1.5rem !important;
+          padding-left: 1.5rem !important;
+     }
+     .py-4 {
+          padding-top: 1.5rem !important;
+          padding-bottom: 1.5rem !important;
+     }
+     .pt-5 {
+          padding-top: 3rem !important;
+     }
+     .pb-4 {
+          padding-bottom: 1.5rem !important;
+     }
+     .text-uppercase {
+          text-transform: uppercase !important;
+     }
+     @media (min-width: 992px) {
+          .d-lg-block {
+               display: block !important;
+          }
+     }
+     .container,
+     .container-fluid {
+          padding-left: 10px;
+          padding-right: 10px;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/themes/porto/css/plugins.css?ver=6.3.3 ; media=all */
+@media all {
+     .fa,
+     .fas,
+     .far {
+          -moz-osx-font-smoothing: grayscale;
+          -webkit-font-smoothing: antialiased;
+          display: inline-block;
+          font-style: normal;
+          font-variant: normal;
+          text-rendering: auto;
+          line-height: 1;
+     }
+     .fa-bars:before {
+          content: "\f0c9";
+     }
+     .fa-chevron-up:before {
+          content: "\f077";
+     }
+     .fa-clock:before {
+          content: "\f017";
+     }
+     .fa-envelope:before {
+          content: "\f0e0";
+     }
+     .fa-search:before {
+          content: "\f002";
+     }
+     .fa-times:before {
+          content: "\f00d";
+     }
+     .far {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 400;
+     }
+     .fa,
+     .fas {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+     }
+     .owl-height {
+          transition: height 0.3s ease-in-out;
+     }
+     .owl-carousel {
+          display: none;
+          width: 100%;
+          -webkit-tap-highlight-color: transparent;
+          position: relative;
+          z-index: 1;
+     }
+     .owl-carousel .owl-stage {
+          position: relative;
+          -ms-touch-action: pan-Y;
+          touch-action: manipulation;
+          -moz-backface-visibility: hidden;
+     }
+     .owl-carousel .owl-stage:after {
+          content: ".";
+          display: block;
+          clear: both;
+          visibility: hidden;
+          line-height: 0;
+          height: 0;
+     }
+     .owl-carousel .owl-stage-outer {
+          position: relative;
+          overflow: hidden;
+          -webkit-transform: translate3d(0px, 0px, 0px);
+     }
+     .owl-carousel .owl-item {
+          -webkit-backface-visibility: hidden;
+          -moz-backface-visibility: hidden;
+          -ms-backface-visibility: hidden;
+          -webkit-transform: translate3d(0, 0, 0);
+          -ms-transform: translate3d(0, 0, 0);
+     }
+     .owl-carousel .owl-item {
+          position: relative;
+          min-height: 1px;
+          float: left;
+          -webkit-backface-visibility: hidden;
+          -webkit-tap-highlight-color: transparent;
+          -webkit-touch-callout: none;
+     }
+     .owl-carousel .owl-item img {
+          display: block;
+          width: 100%;
+     }
+     .owl-carousel .owl-nav.disabled,
+     .owl-carousel .owl-dots.disabled {
+          display: none;
+     }
+     .owl-carousel .owl-nav .owl-prev,
+     .owl-carousel .owl-nav .owl-next {
+          cursor: pointer;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+     }
+     .owl-carousel .owl-nav .owl-prev,
+     .owl-carousel .owl-nav .owl-next {
+          background: none;
+          color: inherit;
+          border: none;
+          padding: 0;
+          font: inherit;
+     }
+     .owl-carousel.owl-loaded {
+          display: block;
+     }
+     .owl-carousel.owl-drag .owl-item {
+          touch-action: pan-y;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+     }
+     .owl-carousel .owl-nav {
+          margin-top: 10px;
+          text-align: center;
+          -webkit-tap-highlight-color: transparent;
+     }
+     .owl-carousel .owl-nav [class*="owl-"] {
+          color: #fff;
+          font-size: 14px;
+          margin: 5px;
+          padding: 4px 7px;
+          background: #d6d6d6;
+          display: inline-block;
+          cursor: pointer;
+     }
+     .owl-carousel .owl-nav [class*="owl-"]:hover {
+          background: var(--porto-primary-dark-5);
+          color: #fff;
+          text-decoration: none;
+     }
+     .owl-carousel .owl-nav .disabled {
+          opacity: 0.5;
+          cursor: default;
+     }
+     .owl-carousel .owl-nav.disabled + .owl-dots {
+          margin-top: 10px;
+     }
+     .owl-carousel .owl-dots {
+          text-align: center;
+          -webkit-tap-highlight-color: transparent;
+     }
+     [class^="Simple-Line-Icons-"] {
+          font-family: "Simple-Line-Icons" !important;
+          speak: none;
+          font-style: normal;
+          font-weight: normal;
+          font-variant: normal;
+          text-transform: none;
+          line-height: 1;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+     }
+     .Simple-Line-Icons-earphones-alt:before {
+          content: "\e03c";
+     }
+     .Simple-Line-Icons-refresh:before {
+          content: "\e098";
+     }
+     button::-moz-focus-inner {
+          padding: 0;
+          border: 0;
+     }
+     .selectric-wrapper {
+          position: relative;
+          cursor: pointer;
+     }
+     .selectric {
+          border: 1px solid #ddd;
+          background: #f8f8f8;
+          position: relative;
+     }
+     .selectric .label {
+          display: block;
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          margin: 0 38px 0 10px;
+          font-size: 12px;
+          line-height: 38px;
+          color: #444;
+          height: 38px;
+     }
+     .selectric-hide-select {
+          position: relative;
+          overflow: hidden;
+          width: 0;
+          height: 0;
+     }
+     .selectric-hide-select select {
+          position: absolute;
+          left: -100%;
+          display: none;
+     }
+     .selectric-input {
+          position: absolute !important;
+          top: 0 !important;
+          left: 0 !important;
+          overflow: hidden !important;
+          clip: rect(0, 0, 0, 0) !important;
+          margin: 0 !important;
+          padding: 0 !important;
+          width: 1px !important;
+          height: 1px !important;
+          outline: none !important;
+          border: none !important;
+          background: none !important;
+     }
+     .selectric-items {
+          display: none;
+          position: absolute;
+          top: 100%;
+          left: 0;
+          background: #f8f8f8;
+          border: 1px solid #c4c4c4;
+          z-index: -1;
+          box-shadow: 0 0 10px -6px;
+     }
+     .selectric-items .selectric-scroll {
+          height: 100%;
+          overflow: auto;
+     }
+     .selectric-items ul,
+     .selectric-items li {
+          list-style: none;
+          padding: 0;
+          margin: 0;
+          font-size: 12px;
+          line-height: 20px;
+          min-height: 20px;
+     }
+     .selectric-items li {
+          display: block;
+          padding: 8px;
+          border-top: 1px solid #fff;
+          border-bottom: 1px solid #eee;
+          color: #666;
+          cursor: pointer;
+     }
+     .selectric-items li.selected {
+          background: #efefef;
+          color: #444;
+     }
+     .selectric-items li:hover {
+          background: #f0f0f0;
+          color: #444;
+     }
+     [class^="porto-icon-"]:before,
+     [class*=" porto-icon-"]:before {
+          font-family: "porto";
+          font-style: normal;
+          font-weight: normal;
+          speak: none;
+          display: inline-block;
+          text-decoration: inherit;
+          width: 1em;
+          margin-right: 0.1em;
+          text-align: center;
+          font-variant: normal;
+          text-transform: none;
+          line-height: 1em;
+          margin-left: 0.1em;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+     }
+     .porto-icon-shipping:before {
+          content: "\e87d";
+     }
+     .porto-icon-cart-thick:before {
+          content: "\e700";
+     }
+     .porto-icon-user-2:before {
+          content: "\e91a";
+     }
+     .porto-icon-wishlist-2:before {
+          content: "\e91b";
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/themes/porto/css/theme.css?ver=6.3.3 ; media=all */
+@media all {
+     @media (prefers-reduced-motion: no-preference) {
+          :root {
+               scroll-behavior: auto;
+          }
+     }
+     html {
+          direction: ltr;
+          overflow-x: hidden;
+          box-shadow: none !important;
+          font-size: calc(16px * var(--porto-mobile-fs-scale, 1));
+     }
+     body {
+          font: var(--porto-body-fst, normal) var(--porto-body-fw, 400)
+                    var(--porto-body-fs, 14px) / var(--porto-body-lh, 24px)
+                    var(--porto-body-ff),
+               sans-serif;
+          letter-spacing: var(--porto-body-ls, 0);
+          color: var(--porto-body-color);
+     }
+     a:hover {
+          color: var(--porto-primary-light-5);
+     }
+     a:active,
+     a:focus {
+          color: var(--porto-primary-dark-5);
+     }
+     .row:after,
+     .row:before {
+          content: none;
+     }
+     input {
+          max-width: 100%;
+     }
+     h1 {
+          font: var(--porto-h1-fst, normal) var(--porto-h1-fw, 700)
+                    var(--porto-h1-fs, 2.6em) / var(--porto-h1-lh, 44px)
+                    var(--porto-h1-ff, var(--porto-body-ff)),
+               sans-serif;
+          color: var(--porto-h1-color, var(--porto-heading-color));
+          letter-spacing: var(--porto-h1-ls, -0.05em);
+          margin-bottom: 32px;
+     }
+     h2 {
+          font: var(--porto-h2-fst, normal) var(--porto-h2-fw, 700)
+                    var(--porto-h2-fs, 2.2em) / var(--porto-h2-lh, 40px)
+                    var(--porto-h2-ff, var(--porto-body-ff)),
+               sans-serif;
+          color: var(--porto-h2-color, var(--porto-heading-color));
+          letter-spacing: var(--porto-h2-ls, -0.05em);
+          margin-bottom: 32px;
+     }
+     h3 {
+          font: var(--porto-h3-fst, normal) var(--porto-h3-fw, 700)
+                    var(--porto-h3-fs, 1.8em) / var(--porto-h3-lh, 32px)
+                    var(--porto-h3-ff, var(--porto-body-ff)),
+               sans-serif;
+          color: var(--porto-h3-color, var(--porto-heading-color));
+          letter-spacing: var(--porto-h3-ls, -0.05em);
+          margin-bottom: 20px;
+     }
+     h4 {
+          font: var(--porto-h4-fst, normal) var(--porto-h4-fw, 700)
+                    var(--porto-h4-fs, 1.4em) / var(--porto-h4-lh, 27px)
+                    var(--porto-h4-ff, var(--porto-body-ff)),
+               sans-serif;
+          color: var(--porto-h4-color, var(--porto-heading-color));
+          letter-spacing: var(--porto-h4-ls, -0.05em);
+          margin: 0 0 14px 0;
+     }
+     .heading.heading-border {
+          margin-bottom: 1.5625rem;
+     }
+     .heading.heading-border h2 {
+          padding: 0;
+          margin: 0;
+     }
+     .heading.heading-border .heading-tag {
+          border-top-color: var(--porto-gray-2);
+          border-bottom-color: var(--porto-gray-2);
+     }
+     .heading.heading-middle-border .heading-tag {
+          position: relative;
+          display: flex;
+          align-items: center;
+     }
+     .heading.heading-middle-border .heading-tag:after,
+     .heading.heading-middle-border .heading-tag:before {
+          height: 0;
+          border-top: 1px solid;
+          border-top-color: inherit;
+          flex: 1;
+     }
+     .heading.heading-middle-border .heading-tag:after {
+          content: "";
+     }
+     .heading.heading-middle-border h2:before {
+          margin-right: 15px;
+     }
+     .heading.heading-middle-border h2:after {
+          margin-left: 15px;
+     }
+     .heading.heading-middle-border-center .heading-tag:before {
+          content: "";
+     }
+     @media (max-width: 575px) {
+          h2 {
+               line-height: 40px;
+          }
+     }
+     p {
+          margin: 0 0 1.25rem;
+     }
+     strong {
+          font-weight: 700;
+     }
+     input[type="email"],
+     input[type="text"] {
+          -webkit-appearance: none;
+     }
+     .form-control,
+     input[type="email"],
+     input[type="text"],
+     select {
+          border: 1px solid;
+          outline: none;
+          box-shadow: none;
+          text-align: left;
+          line-height: 1.42857;
+          padding: 8px 12px;
+          font-size: 0.85rem;
+          vertical-align: middle;
+          height: auto;
+     }
+     select {
+          -webkit-appearance: none;
+          -ms-appearance: none;
+          -moz-appearance: none;
+          background: #fff
+               url("https://www.holzelektro.com/wp-content/themes/porto/images/select-bg.svg")
+               96% 49%/26px 60px no-repeat;
+          text-indent: 0.01em;
+          border-radius: 0;
+          padding-right: 25px;
+     }
+     @media (-ms-high-contrast: none), screen and (-ms-high-contrast: active) {
+          select::-ms-expand {
+               display: none;
+          }
+     }
+     .form-control:focus {
+          border-color: var(--porto-input-bc);
+     }
+     .form-control:focus,
+     select:focus {
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+     }
+     [type="submit"] {
+          border: 1px solid var(--porto-primary-color);
+          color: #fff;
+          padding: 8px 10px;
+          line-height: 1.42857;
+     }
+     img {
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+          -webkit-user-drag: none;
+          -moz-user-drag: none;
+     }
+     .btn {
+          margin: 0;
+     }
+     .btn {
+          padding: 0.533rem 0.933rem;
+          font-size: 0.8rem;
+          line-height: 1.42857;
+     }
+     .btn,
+     .button,
+     input[type="submit"] {
+          transition: color 0.15s, background-color 0.15s, border-color 0.15s,
+               box-shadow 0.15s, transform 0.2s;
+          cursor: pointer;
+     }
+     button {
+          border: 1px solid #ccc;
+     }
+     .button {
+          display: inline-block;
+          text-align: center;
+          font-weight: 400;
+          vertical-align: middle;
+          touch-action: manipulation;
+          padding: 8px 12px;
+          white-space: nowrap;
+          line-height: 1.5;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+     }
+     .button:disabled {
+          cursor: default;
+     }
+     .button:hover {
+          text-decoration: none;
+     }
+     .button,
+     [type="submit"] {
+          background-color: var(--porto-primary-color);
+          border-color: var(--porto-primary-color);
+          color: var(--porto-primary-color-inverse);
+     }
+     .button:active,
+     .button:focus,
+     .button:hover,
+     [type="submit"]:active,
+     [type="submit"]:focus,
+     [type="submit"]:hover {
+          background-color: var(--porto-primary-dark-5);
+          border-color: var(--porto-primary-dark-5);
+          color: var(--porto-primary-color-inverse);
+     }
+     .btn-primary {
+          background-color: var(--porto-primary-color, #ccc);
+          border-color: var(--porto-primary-color, #ccc)
+               var(--porto-primary-color, #ccc)
+               var(--porto-primary-dark-10, #b3b3b3);
+          color: var(--porto-primary-color-inverse, #fff);
+     }
+     .btn-primary:active,
+     .btn-primary:focus,
+     .btn-primary:hover {
+          border-color: var(--porto-primary-light-10, #e6e6e6)
+               var(--porto-primary-light-10, #e6e6e6)
+               var(--porto-primary-color, #ccc);
+          background-color: var(--porto-primary-light-7, #dedede);
+          color: var(--porto-primary-color-inverse, #fff);
+     }
+     .btn i {
+          display: inline-block;
+          transition: transform 0.25s linear;
+          line-height: 1;
+     }
+     .label {
+          display: inline;
+          padding: 0.2em 0.6em 0.3em;
+          font-size: 75%;
+          font-weight: bold;
+          line-height: 1;
+          color: #fff;
+          text-align: center;
+          white-space: nowrap;
+          vertical-align: baseline;
+          border-radius: 3px;
+     }
+     .size-full {
+          max-width: 100%;
+          height: auto;
+     }
+     li {
+          line-height: var(--porto-body-lh);
+     }
+     .has-ccols {
+          flex-wrap: wrap;
+     }
+     .has-ccols > * {
+          max-width: 100%;
+          flex: 0 0 auto;
+          width: var(--porto-cw, 100%);
+     }
+     .ccols-2 {
+          --porto-cw: 50%;
+     }
+     @media (min-width: 576px) {
+          .ccols-sm-2 > * {
+               --porto-cw: 50%;
+          }
+     }
+     @media (min-width: 768px) {
+          .ccols-md-4 > * {
+               --porto-cw: 25%;
+          }
+     }
+     @media (min-width: 992px) {
+          .ccols-lg-5 > * {
+               --porto-cw: 20%;
+          }
+     }
+     .has-ccols.owl-loaded > div {
+          flex: none;
+          width: auto;
+          max-width: none;
+     }
+     .has-ccols.owl-loaded > .owl-nav {
+          width: 100%;
+     }
+     .owl-carousel {
+          margin-bottom: 20px;
+     }
+     .owl-carousel .owl-nav button {
+          outline: none;
+     }
+     .owl-carousel .owl-nav {
+          top: 50%;
+          position: absolute;
+          margin-top: 0;
+          width: 100%;
+          flex: none;
+     }
+     .owl-carousel .owl-nav .owl-next,
+     .owl-carousel .owl-nav .owl-prev {
+          position: absolute;
+          width: 30px;
+          height: 30px;
+          text-align: center;
+          line-height: 22px;
+          margin: 0;
+          transform: translateY(-50%);
+          background-color: var(--porto-primary-color);
+          border-color: var(--porto-primary-color);
+          color: var(--porto-primary-color-inverse);
+     }
+     .owl-carousel .owl-nav .owl-prev {
+          left: 0;
+     }
+     .owl-carousel .owl-nav .owl-prev:before {
+          font-family: "Porto";
+          content: "";
+     }
+     .owl-carousel .owl-nav .owl-next {
+          right: 0;
+     }
+     .owl-carousel .owl-nav .owl-next:before {
+          font-family: "Porto";
+          content: "";
+     }
+     .owl-carousel .owl-nav [class*="owl-"]:active,
+     .owl-carousel .owl-nav [class*="owl-"]:focus,
+     .owl-carousel .owl-nav [class*="owl-"]:hover {
+          background-color: var(--porto-primary-dark-5);
+          border-color: var(--porto-primary-dark-5);
+     }
+     .owl-carousel .owl-dots {
+          margin-top: 1em;
+     }
+     .owl-carousel.show-nav-hover .owl-prev {
+          left: -10px;
+          transform: translate(-10px, -50%);
+     }
+     .owl-carousel.show-nav-hover .owl-next {
+          right: -10px;
+          transform: translate(10px, -50%);
+     }
+     @media (max-width: 991px) {
+          .owl-carousel.show-nav-hover .owl-prev {
+               left: 0;
+               transform: translate(10px, -50%);
+          }
+          .owl-carousel.show-nav-hover .owl-next {
+               right: 0;
+               transform: translate(-10px, -50%);
+          }
+     }
+     .owl-carousel.show-nav-hover .owl-next,
+     .owl-carousel.show-nav-hover .owl-prev {
+          transition: opacity 0.2s, transform 0.4s;
+          opacity: 0;
+     }
+     .owl-carousel.show-nav-hover:hover .owl-next,
+     .owl-carousel.show-nav-hover:hover .owl-prev {
+          opacity: 1;
+          transform: translate(0, -50%);
+     }
+     .owl-carousel.show-nav-hover:hover .owl-next.disabled,
+     .owl-carousel.show-nav-hover:hover .owl-prev.disabled {
+          opacity: 0.5;
+     }
+     .owl-carousel.nav-style-4 .owl-nav [class*="owl-"] {
+          width: 30px;
+          background: none !important;
+          color: var(--porto-heading-color);
+          font-size: 24px;
+     }
+     .owl-carousel.nav-style-4 .owl-prev:before {
+          content: "";
+     }
+     .owl-carousel.nav-style-4 .owl-next:before {
+          content: "";
+     }
+     .owl-carousel.nav-pos-outside .owl-nav .owl-prev {
+          left: -30px;
+     }
+     .owl-carousel.nav-pos-outside .owl-nav .owl-next {
+          right: -30px;
+     }
+     @media (max-width: 991px) {
+          .owl-carousel.nav-pos-outside .owl-nav .owl-prev {
+               left: -10px;
+          }
+          .owl-carousel.nav-pos-outside .owl-nav .owl-next {
+               right: -10px;
+          }
+     }
+     .owl-carousel .wpb_content_element {
+          margin-bottom: 0;
+     }
+     body a {
+          outline: none !important;
+     }
+     .align-center {
+          text-align: center;
+     }
+     .tf-none,
+     .tf-none img {
+          transform: none !important;
+          transition: none !important;
+     }
+     img {
+          max-width: 100%;
+          height: auto;
+     }
+     hr {
+          opacity: 1;
+          border: 0;
+          height: 1px;
+          margin: 22px 0;
+     }
+     hr.solid {
+          background: var(--porto-normal-bc);
+     }
+     .porto-separator {
+          margin: 0 0 22px;
+     }
+     .porto-separator .separator-line {
+          margin: 0 auto;
+     }
+     .thumb-info {
+          text-decoration: none;
+          max-width: 100%;
+          border: 1px solid;
+     }
+     .thumb-info,
+     .thumb-info .thumb-info-wrapper {
+          display: block;
+          position: relative;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+     }
+     .thumb-info .thumb-info-wrapper {
+          margin: 0;
+          overflow: hidden;
+     }
+     .thumb-info .thumb-info-wrapper:after {
+          content: "";
+          transition: 0.3s;
+          bottom: 0;
+          color: #fff;
+          left: 0;
+          position: absolute;
+          right: 0;
+          top: 0;
+          display: block;
+          opacity: 0;
+          z-index: 1;
+     }
+     .thumb-info .thumb-info-inner {
+          transition: 0.3s;
+          display: block;
+          font: inherit;
+          color: inherit;
+          margin-bottom: 0;
+     }
+     .thumb-info .thumb-info-title {
+          transition: 0.3s;
+          background: rgba(33, 37, 41, 0.8);
+          bottom: 13%;
+          color: #fff;
+          font-size: 17px;
+          font-weight: 600;
+          left: 0;
+          letter-spacing: -0.05em;
+          padding: 13px 21px 2px;
+          position: absolute;
+          z-index: 2;
+          max-width: 90%;
+     }
+     .thumb-info .thumb-info-type {
+          display: inline-block;
+          float: left;
+          font-size: 0.6em;
+          font-weight: 600;
+          letter-spacing: 0;
+          margin: 8px -2px -15px 0;
+          padding: 2px 12px;
+          text-transform: uppercase;
+          z-index: 2;
+          line-height: 2.3;
+          background: var(--porto-primary-color);
+     }
+     .thumb-info img {
+          transition: 0.3s;
+          position: relative;
+          width: 100%;
+     }
+     .thumb-info:hover .thumb-info-wrapper:after {
+          opacity: 1;
+     }
+     .thumb-info:hover .thumb-info-title {
+          background: #000;
+     }
+     .thumb-info:hover img {
+          transform: scale(1.1, 1.1);
+     }
+     @media (max-width: 991px) {
+          .thumb-info .thumb-info-title {
+               font-size: 14px;
+          }
+     }
+     .share-links {
+          vertical-align: middle;
+     }
+     .share-links a {
+          font-size: 0.8rem;
+          color: #fff;
+          text-indent: -9999em;
+          text-align: center;
+          width: 2.2857em;
+          height: 2.2857em;
+          display: inline-block;
+          margin: 0.2857em 0.5714em 0.2857em 0;
+          position: relative;
+          vertical-align: middle;
+          transition: 0.25s;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+     }
+     .share-links a:before {
+          font-family: "Font Awesome 5 Brands";
+          text-indent: 0;
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          line-height: 23px;
+          height: 22px;
+          margin: auto;
+          z-index: 2;
+     }
+     .share-links a:focus,
+     .share-links a:hover {
+          opacity: 0.9;
+          color: #fff;
+     }
+     .share-links .share-twitter {
+          background: #1aa9e1;
+     }
+     .share-links .share-twitter:before {
+          content: "";
+     }
+     .share-links .share-facebook {
+          background: #3b5a9a;
+     }
+     .share-links .share-facebook:before {
+          content: "";
+     }
+     .share-links .share-instagram {
+          background: #7c4a3a;
+     }
+     .share-links .share-instagram:before {
+          content: "";
+     }
+     .follow-us .share-links a:hover {
+          opacity: 1;
+     }
+     html #topcontrol {
+          background: rgba(64, 64, 64, 0.75);
+          color: #fff;
+          width: 49px;
+          height: 48px;
+          right: 10px;
+          text-align: center;
+          z-index: 1040;
+          transition: background 0.3s ease-out;
+     }
+     html #topcontrol i {
+          position: absolute;
+          height: 24px;
+          line-height: 24px;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+     }
+     @media (max-width: 767px) {
+          html #topcontrol {
+               display: none;
+          }
+     }
+     .wpcf7-spinner {
+          position: absolute;
+     }
+     .accordion-menu .arrow,
+     .star-rating {
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          -webkit-font-smoothing: antialiased;
+          -moz-osx-font-smoothing: grayscale;
+     }
+     .widget {
+          margin-bottom: 1.875rem;
+          margin-top: 1.875rem;
+     }
+     .widget:first-child {
+          margin-top: 0;
+     }
+     .widget .widget-title {
+          color: var(--porto-heading-color);
+     }
+     .widget .widget-title {
+          margin-bottom: 15px;
+          font-size: 1em;
+          margin-top: 0;
+     }
+     .widget .widget-title {
+          line-height: 1.4;
+          font-weight: 700;
+          text-transform: uppercase;
+     }
+     .widget > div > ul {
+          font-size: 0.9286em;
+          border-bottom: 1px solid var(--porto-input-bc);
+          margin-top: -8px;
+          margin-bottom: 0;
+     }
+     .widget > div > ul > li:first-child {
+          border-top-width: 0;
+     }
+     .widget > div > ul li {
+          position: relative;
+          margin: 0;
+          padding: 5px 0;
+          border-top: 1px solid var(--porto-input-bc);
+          transition: 0.3s;
+     }
+     .widget ul {
+          list-style: none;
+          padding: 0;
+     }
+     .widget.widget_text li,
+     .widget.widget_text ul {
+          border-width: 0;
+          padding: 0;
+          margin: 0;
+     }
+     .widget_wysija .wysija-paragraph {
+          margin-bottom: 10px;
+     }
+     .footer .widget .widget_wysija {
+          position: relative;
+          display: table;
+          border-collapse: separate;
+          max-width: 550px;
+     }
+     .footer .widget_wysija_cont .wysija-paragraph {
+          display: table-cell;
+          vertical-align: top;
+          width: 100%;
+     }
+     .footer .widget_wysija_cont .wysija-input,
+     .footer .widget_wysija_cont .wysija-submit {
+          height: 44px;
+          font-size: 0.75rem;
+          border-width: 0;
+          background-clip: border-box;
+     }
+     .footer .widget_wysija_cont .wysija-input {
+          border-top-right-radius: 0;
+          border-bottom-right-radius: 0;
+          border-right-width: 1px;
+          width: 100%;
+     }
+     .footer .widget_wysija_cont .wysija-submit {
+          border-left: none;
+          display: table-cell;
+          vertical-align: top;
+          margin: 0 0 0 -1px;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+     }
+     .widget.contact-info li,
+     .widget.contact-info ul {
+          border-width: 0;
+          margin: 0;
+          padding: 0;
+     }
+     .widget.contact-info li a:hover {
+          text-decoration: underline;
+     }
+     .widget.contact-info li:not(:last-child) {
+          margin-bottom: 10px;
+     }
+     .widget.contact-info i {
+          clear: both;
+          float: left;
+          text-align: center;
+          width: 16px;
+          top: -2px;
+          margin: 4px 9px 10px 0;
+          font-size: 1.3em;
+          position: static !important;
+     }
+     .widget.contact-info .contact-info-block .contact-details span,
+     .widget.contact-info .contact-info-block .contact-details strong {
+          display: block;
+          padding-left: 25px;
+     }
+     .follow-us .share-links a {
+          width: 30px;
+          height: 30px;
+          border-radius: 30px;
+          margin: 2px;
+          overflow: hidden;
+          box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.3);
+          font-size: 14px;
+     }
+     .follow-us .share-links a:hover {
+          color: #fff;
+     }
+     .star-rating {
+          display: block;
+          cursor: pointer;
+          float: none;
+          position: relative;
+          font-size: 11px;
+          height: 1em;
+          line-height: 1em;
+          overflow: hidden;
+          position: relative;
+          width: 6em;
+          letter-spacing: 0.1em;
+          text-align: left;
+          white-space: nowrap;
+     }
+     .star-rating:before {
+          content: "" "" "" "" "";
+          float: left;
+          left: 0;
+          position: absolute;
+          top: 0;
+     }
+     .star-rating span {
+          float: left;
+          left: 0;
+          overflow: hidden;
+          padding-top: 1.5em;
+          position: absolute;
+          top: 0;
+     }
+     .star-rating span:before {
+          color: #6a6a6d;
+          content: "" "" "" "" "";
+          left: 0;
+          position: absolute;
+          top: 0;
+     }
+     .entry-title {
+          margin-top: 0;
+     }
+     .sub-title {
+          text-transform: uppercase;
+     }
+     .page-content:after {
+          content: "";
+          display: table;
+          clear: both;
+     }
+     .appear-animation,
+     [data-appear-animation] {
+          opacity: 0;
+     }
+     .appear-animation {
+          animation-fill-mode: both;
+          animation-duration: 1s;
+     }
+     .appear-animation-visible {
+          opacity: 1;
+     }
+     .fadeIn {
+          animation-name: fadeIn;
+     }
+     .fadeInUp {
+          animation-name: fadeInUp;
+     }
+     .vc_row-no-padding {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+     }
+     .vc_row.wpb_row {
+          margin-bottom: 0;
+     }
+     .vc_row.wpb_row.vc_row-no-padding > .vc_column_container {
+          padding-left: 0;
+          padding-right: 0;
+     }
+     .vc_row:not(.row) {
+          margin-left: 0;
+          margin-right: 0;
+     }
+     .container-fluid {
+          padding-left: var(--porto-fluid-spacing);
+          padding-right: var(--porto-fluid-spacing);
+     }
+     .container-fluid .top-row:not(.porto-inner-container) {
+          padding-left: var(--porto-container-spacing);
+          padding-right: var(--porto-container-spacing);
+     }
+     @media (max-width: 991px) {
+          .container,
+          .container-fluid .porto-inner-container .container {
+               padding-left: var(--porto-fluid-spacing);
+               padding-right: var(--porto-fluid-spacing);
+          }
+          .container-fluid .container {
+               padding-left: 0;
+               padding-right: 0;
+          }
+     }
+     .slider-wrapper {
+          margin-left: calc(var(--porto-column-spacing) * -1);
+          margin-right: calc(var(--porto-column-spacing) * -1);
+     }
+     .mega-menu {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+     }
+     .mega-menu li.menu-item {
+          display: block;
+          position: relative;
+          margin: 0;
+     }
+     .mega-menu li.menu-item > a {
+          display: block;
+          text-align: left;
+          position: relative;
+          margin-top: 0;
+          margin-bottom: 0;
+          font-family: inherit;
+          font-size: inherit;
+     }
+     .mega-menu li.menu-item > a:hover {
+          z-index: 1;
+     }
+     .mega-menu ul.sub-menu {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+     }
+     .mega-menu:after {
+          content: " ";
+          display: table;
+          clear: both;
+     }
+     .mega-menu li.menu-item > a {
+          font-weight: 400;
+     }
+     .mega-menu > li.menu-item {
+          float: left;
+     }
+     .mega-menu > li.menu-item > a {
+          display: inline-block;
+          font-size: 0.8571em;
+          font-weight: 700;
+          line-height: 20px;
+          padding: 9px 12px 8px;
+          text-transform: var(--porto-menu-text-transform);
+     }
+     .mega-menu > li.menu-item.active,
+     .mega-menu > li.menu-item:hover > a {
+          color: #fff;
+     }
+     .mega-menu > li.menu-item.has-sub:hover {
+          z-index: 111;
+     }
+     .mega-menu .popup {
+          position: absolute;
+          text-align: left;
+          top: 100%;
+          margin: 0;
+          z-index: 111;
+          min-width: 100%;
+          line-height: 20px;
+          will-change: transform, top;
+     }
+     .mega-menu .popup ul.sub-menu {
+          position: relative;
+     }
+     .mega-menu .popup li.menu-item {
+          line-height: inherit;
+          padding: 0;
+     }
+     .mega-menu .popup li.menu-item > a {
+          font-size: 13px;
+     }
+     .mega-menu .narrow ul.sub-menu {
+          min-width: 200px;
+          padding: 5px 0;
+          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+          border-top: 0 solid var(--porto-primary-color);
+          background: var(--porto-primary-color);
+          z-index: 10;
+     }
+     .mega-menu .narrow li.menu-item > a {
+          color: #fff;
+          font-weight: 400;
+          padding: 8px var(--porto-submenu-item-lrp, 18px);
+          font-size: 0.9em;
+          border-bottom: var(--porto-submenu-item-bbw, 1px) solid
+               rgba(255, 255, 255, 0.2);
+          white-space: nowrap;
+     }
+     .mega-menu .narrow li.menu-item:last-child > a {
+          border-bottom-width: 0;
+     }
+     .mega-menu .narrow li.menu-item:hover > a {
+          background-color: var(--porto-primary-light-5);
+     }
+     .mega-menu .popup {
+          top: -3000px;
+     }
+     .mega-menu .popup li.menu-item > a {
+          transition: transform 0.2s ease-out;
+          -webkit-transform: translate3d(0, -5px, 0);
+          transform: translate3d(0, -5px, 0);
+     }
+     .mega-menu > li.menu-item .popup {
+          transition: transform 0.2s ease-out;
+          -webkit-transform: translate3d(0, -5px, 0);
+          transform: translate3d(0, -5px, 0);
+     }
+     .mega-menu > li.menu-item:hover .popup {
+          top: 100%;
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+     }
+     .mega-menu > li.menu-item:hover li.menu-item > a {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, 0, 0);
+     }
+     .mega-menu.show-arrow > li.has-sub > a:after {
+          display: inline-block;
+          content: "";
+          font-family: "porto";
+          font-weight: 400;
+          font-size: 1em;
+          margin: 0 0 0 5px;
+          line-height: 1;
+     }
+     .mega-menu.menu-hover-line > li.menu-item > a:before {
+          content: "";
+          position: absolute;
+          width: 100%;
+          height: 3px;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          background: var(--porto-primary-color);
+     }
+     .mega-menu.menu-hover-line > li.menu-item:hover > a:before {
+          opacity: 1;
+     }
+     .accordion-menu {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          font-size: 0.9em;
+     }
+     .accordion-menu > li,
+     .accordion-menu ul.sub-menu > li {
+          position: relative;
+     }
+     .accordion-menu li.menu-item {
+          margin: 0;
+     }
+     .accordion-menu li.menu-item > a {
+          position: relative;
+          display: block;
+          outline: medium none;
+          text-decoration: none;
+          text-align: left;
+          margin: 1px 0 0;
+          padding: 5px 6px;
+          line-height: 25px;
+          font-weight: 400;
+          transition: 0.25s;
+          font-family: inherit;
+          font-size: inherit;
+     }
+     .accordion-menu li.menu-item.has-sub > a {
+          padding-right: 33px;
+     }
+     .accordion-menu ul.sub-menu {
+          display: none;
+          list-style: none;
+          margin: 0;
+          padding: 0 0 0 10px;
+     }
+     .accordion-menu .arrow {
+          position: absolute;
+          top: 4px;
+          right: 0;
+          display: block;
+          width: 25px;
+          height: 25px;
+          cursor: pointer;
+          text-align: center;
+          line-height: 25px;
+          vertical-align: top;
+          z-index: 10;
+          transition: 0.25s;
+     }
+     .accordion-menu .arrow:before {
+          content: "";
+     }
+     #header .header-main .container {
+          position: relative;
+          display: table;
+     }
+     #header .header-main .container > div {
+          display: table-cell;
+          position: relative;
+          vertical-align: middle;
+     }
+     #header .header-left {
+          text-align: left;
+     }
+     #header .header-right {
+          text-align: right;
+     }
+     #header.header-loaded .header-main {
+          -webkit-backface-visibility: hidden;
+     }
+     #header .header-main {
+          position: relative;
+     }
+     #header .header-main .container {
+          min-height: 68px;
+     }
+     @media (max-width: 575px) {
+          #header .header-main .container {
+               min-height: 43px;
+          }
+     }
+     #header .header-main .header-left {
+          padding: 27px 0;
+     }
+     @media (max-width: 991px) {
+          #header .header-main .header-left {
+               padding: 20px 0;
+          }
+     }
+     #header .header-main .header-right {
+          padding: 20px 0;
+     }
+     #header.sticky-header .header-main {
+          transition: none;
+     }
+     #header.sticky-header .header-main .container {
+          min-height: 60px;
+     }
+     #header.sticky-header .logo {
+          min-width: 0;
+     }
+     #header.sticky-header .main-menu-wrap {
+          position: fixed;
+          border-bottom-width: 0 !important;
+          left: 0;
+          right: 0;
+          top: 0;
+          z-index: 1001;
+          padding: 8px 0;
+     }
+     #header.sticky-header .main-menu-wrap {
+          box-shadow: 0 0 3px 0 var(--porto-normal-bc);
+     }
+     #header .logo {
+          margin: 0;
+          padding: 0;
+          min-width: 80px;
+          line-height: 0;
+          max-width: var(--porto-logo-mw);
+     }
+     #header .logo a {
+          display: inline-block;
+          max-width: 100%;
+     }
+     #header .logo img {
+          display: none;
+          color: transparent;
+          max-width: 100%;
+          transform-origin: left center;
+     }
+     #header .logo .standard-logo {
+          display: inline-block;
+     }
+     #header.sticky-header .logo {
+          max-width: var(--porto-sticky-logo-mw);
+     }
+     #header.sticky-header .logo .sticky-logo {
+          display: inline-block;
+     }
+     #header.sticky-header .sticky-logo ~ img {
+          display: none;
+     }
+     @media not all,
+          only screen and (min-resolution: 1.5dppx),
+          only screen and (min-resolution: 144dpi) {
+          #header .logo .standard-logo,
+          #header.sticky-header .logo .sticky-logo {
+               display: none;
+          }
+          #header .logo .retina-logo,
+          #header.sticky-header .logo .sticky-retina-logo {
+               display: inline-block;
+          }
+     }
+     #header .logo-transition img {
+          transition: 0.3s;
+     }
+     #header .searchform {
+          border: 1px solid #ccc;
+          position: relative;
+          display: inline-block;
+          line-height: 38px;
+          font-size: 0.8125rem;
+          padding: 0;
+          vertical-align: middle;
+     }
+     @media (max-width: 991px) {
+          #header .searchform {
+               border-width: 5px;
+               display: none;
+               position: absolute;
+               right: -25px;
+               top: 100%;
+               margin-top: 8px;
+               z-index: 1003;
+               box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+          }
+     }
+     @media (max-width: 375px) {
+          #header .searchform {
+               right: -80px;
+          }
+     }
+     #header .searchform fieldset {
+          display: flex;
+     }
+     #header .searchform .button-wrap,
+     #header .searchform .cat,
+     #header .searchform .selectric-cat,
+     #header .searchform .text {
+          display: block;
+          text-align: left;
+     }
+     #header .searchform .button-wrap {
+          margin: 0;
+     }
+     #header .searchform button,
+     #header .searchform input,
+     #header .searchform select {
+          background: none;
+          border-radius: 0;
+          border: none;
+          outline: none;
+          box-shadow: none;
+          margin-bottom: 0;
+          display: block;
+     }
+     #header .searchform input::placeholder {
+          opacity: 0.7;
+     }
+     #header .searchform input:-ms-input-placeholder {
+          opacity: 0.7;
+     }
+     #header .searchform input::-ms-input-placeholder {
+          opacity: 0.7;
+     }
+     #header .searchform button,
+     #header .searchform input,
+     #header .searchform select {
+          height: 38px;
+     }
+     #header .searchform input {
+          padding: 0 15px 0 15px;
+          width: 398px;
+          font-size: inherit;
+     }
+     #header .searchform.searchform-cats input {
+          width: 266px;
+     }
+     @media (max-width: 767px) {
+          #header .searchform input {
+               width: 280px;
+          }
+          #header .searchform.searchform-cats input {
+               width: 150px;
+          }
+     }
+     @media (max-width: 575px) {
+          #header .searchform input {
+               width: 234px;
+          }
+          #header .searchform.searchform-cats input {
+               width: 118px;
+               padding-right: 10px;
+          }
+          #header .searchform.searchform-cats select {
+               width: 116px;
+               padding: 0 8px;
+          }
+          #header .searchform.searchform-cats .selectric-cat {
+               width: 116px;
+          }
+          #header .searchform.searchform-cats .selectric .label {
+               padding: 0 8px;
+          }
+     }
+     @media (max-width: 374px) {
+          #header .searchform input {
+               width: 200px;
+          }
+     }
+     @media (max-width: 320px) {
+          #header .searchform input {
+               width: 190px;
+          }
+     }
+     #header .searchform select {
+          padding: 0 15px 0 15px;
+          width: 130px;
+     }
+     #header .searchform select::-ms-expand {
+          display: none;
+     }
+     #header .searchform .selectric-cat {
+          width: 129px;
+          text-align: left;
+     }
+     #header .searchform .selectric {
+          background: transparent;
+          border-width: 0;
+     }
+     #header .searchform .selectric .label {
+          padding: 0 15px 0 15px;
+          margin: 0;
+          font-weight: normal;
+          font-size: inherit;
+          border-radius: 0;
+          text-align: left;
+          letter-spacing: 0.005em;
+          -webkit-user-select: none;
+          -ms-user-select: none;
+          user-select: none;
+     }
+     #header .searchform .selectric .label:after {
+          content: "";
+          font-family: "porto";
+          float: right;
+          font-size: 14px;
+     }
+     #header .searchform .selectric-items {
+          left: 0px;
+          max-width: 250px;
+     }
+     #header .searchform .selectric-items li,
+     #header .searchform .selectric-items ul {
+          line-height: 18px;
+          min-height: 18px;
+     }
+     #header .searchform .selectric-items li {
+          border-width: 0;
+          padding: 6px 8px;
+     }
+     #header .searchform .selectric-items:focus {
+          outline: none;
+     }
+     #header .searchform .selectric,
+     #header .searchform input,
+     #header .searchform select {
+          border-right: 1px solid #ccc;
+     }
+     #header .searchform .autocomplete-suggestions {
+          width: auto !important;
+          left: -1px;
+          right: -1px;
+          padding: 15px;
+          border-radius: 0;
+     }
+     #header .searchform-popup {
+          display: inline-block;
+          position: relative;
+          vertical-align: middle;
+     }
+     #header .searchform-popup .search-toggle {
+          cursor: pointer;
+          display: none;
+          text-align: center;
+          position: relative;
+     }
+     #header .searchform-popup .search-toggle:after {
+          content: "";
+          position: absolute;
+          z-index: 1000;
+          display: none;
+          left: 50%;
+          top: 100%;
+          margin-left: -11px;
+          margin-top: -13px;
+          width: 22px;
+          height: 22px;
+          border: 11px solid transparent;
+          border-bottom-color: inherit;
+     }
+     @media (max-width: 991px) {
+          #header .searchform-popup .search-toggle {
+               display: block;
+          }
+     }
+     @media (max-width: 575px) {
+          #header .searchform-popup .searchform {
+               border-width: 3px;
+               margin-top: 6px;
+          }
+     }
+     @media (max-width: 767px) {
+          #header .header-right .searchform {
+               left: auto;
+               right: -22px;
+          }
+     }
+     @media (max-width: 575px) {
+          #header .header-right .searchform {
+               right: -18px;
+          }
+     }
+     #header .search-toggle .search-text {
+          display: none;
+          text-transform: uppercase;
+          margin-left: 5px;
+     }
+     #mini-cart .cart-head,
+     .header-bottom,
+     .main-menu-wrap .container {
+          display: flex;
+          align-items: center;
+     }
+     #mini-cart {
+          display: inline-block;
+          position: relative;
+          white-space: normal;
+          vertical-align: middle;
+     }
+     #mini-cart .cart-head {
+          position: relative;
+          cursor: pointer;
+          min-width: 40px;
+          justify-content: center;
+     }
+     #mini-cart .cart-head:before {
+          content: "";
+          position: absolute;
+          top: 100%;
+          height: 15px;
+          left: 0;
+          width: 100%;
+          z-index: 1;
+     }
+     #mini-cart .cart-icon {
+          position: relative;
+          line-height: 0;
+          font-weight: 400;
+          padding: 5px 0;
+          min-height: 24px;
+     }
+     #mini-cart .cart-icon:after {
+          content: "";
+          border-width: 1px 1px 0 0;
+          border-color: var(--porto-title-bgc);
+          border-style: solid;
+          background: var(--porto-normal-bg);
+          width: 14px;
+          height: 14px;
+          position: absolute;
+          top: calc(100% + 1px);
+          left: 50%;
+          margin-left: -7px;
+          transform: rotate(-45deg);
+          z-index: 1004;
+          display: none;
+          animation: arrowFadeInDown 0.2s ease-out;
+     }
+     #mini-cart .minicart-icon {
+          vertical-align: middle;
+          display: inline-block;
+          font-style: normal;
+     }
+     #mini-cart .minicart-icon:before {
+          margin: 0;
+     }
+     #mini-cart .cart-popup {
+          position: absolute;
+          width: 300px;
+          -webkit-backface-visibility: hidden;
+          z-index: 1003;
+          top: 100%;
+          margin-top: 8px;
+          right: 0;
+          padding: 0;
+          box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15);
+          text-align: left;
+          display: none;
+          animation: menuFadeInDown 0.2s ease-out;
+     }
+     @media (max-width: 767px) {
+          #mini-cart .cart-popup {
+               width: 290px;
+          }
+     }
+     #mini-cart .widget_shopping_cart_content {
+          padding: 10px 15px 5px;
+          font-weight: 700;
+          font-size: 0.8125rem;
+          line-height: 1.5;
+          border-radius: 0;
+          background: var(--porto-normal-bg);
+     }
+     #mini-cart .widget_shopping_cart li.empty {
+          text-align: center;
+          justify-content: center;
+          padding: 8px 0 0;
+          font-weight: 400;
+     }
+     #mini-cart .cart_list {
+          min-height: 45px;
+          max-height: 300px;
+          margin: 0;
+     }
+     #mini-cart .cart-items-text {
+          font-size: var(--porto-body-fs, 14px);
+     }
+     .sticky-header #mini-cart.minicart-arrow-alt {
+          font-size: 25px;
+     }
+     #mini-cart.minicart-arrow-alt .cart-head:after {
+          content: "";
+          font-family: "porto";
+          font-size: 17px;
+          margin-left: 15px;
+     }
+     #mini-cart.minicart-arrow-alt .cart-items-text {
+          display: none;
+          margin-left: 4px;
+     }
+     #mini-cart.minicart-offcanvas .cart-icon:after {
+          content: none;
+     }
+     #mini-cart.minicart-offcanvas .cart-popup {
+          position: fixed;
+          top: 0;
+          height: 100%;
+          display: block;
+          margin-top: 0;
+          animation: none;
+     }
+     #mini-cart.minicart-offcanvas .cart_list {
+          overflow: visible;
+          max-height: none;
+     }
+     #mini-cart.minicart-offcanvas .widget_shopping_cart li.empty {
+          justify-content: flex-start;
+     }
+     #mini-cart.minicart-offcanvas .widget_shopping_cart_content {
+          padding: 1.75rem 1.25rem 0.5rem;
+     }
+     #mini-cart .cart_list,
+     .minicart-offcanvas .widget_shopping_cart_content {
+          overflow-x: hidden;
+          overflow-y: auto;
+          -webkit-overflow-scrolling: touch;
+     }
+     #mini-cart .cart_list::-webkit-scrollbar,
+     .minicart-offcanvas .widget_shopping_cart_content::-webkit-scrollbar {
+          width: 6px;
+     }
+     .minicart-offcanvas h3 {
+          font-size: 1.25rem;
+     }
+     .minicart-offcanvas .widget_shopping_cart_content {
+          font-family: var(--porto-h3-ff, var(--porto-body-ff)), sans-serif;
+          height: 100%;
+     }
+     .minicart-offcanvas .cart-popup {
+          transform: translateX(105%);
+          transition: transform 0.35s;
+     }
+     .minicart-overlay {
+          position: fixed;
+          z-index: 1001;
+          left: 0;
+          top: 0;
+          bottom: 0;
+          right: 0;
+          background: rgba(0, 0, 0, 0.4);
+          display: none;
+     }
+     .minicart-overlay svg {
+          position: absolute;
+          top: 1.25rem;
+          right: 320px;
+          width: 1.5rem;
+          height: 1.5rem;
+          cursor: pointer;
+     }
+     #mini-cart .cart-items {
+          position: absolute;
+          right: -8px;
+          top: -5px;
+          font-size: 10px;
+          font-weight: 600;
+          text-align: center;
+          width: 16px;
+          height: 16px;
+          line-height: 16px;
+          border-radius: 8px;
+          overflow: hidden;
+          color: #fff;
+          background-color: #ff5b5b;
+     }
+     #mini-cart .cart-items {
+          top: 0;
+     }
+     html:not(.touch):not(.no-touch) #mini-cart:hover .cart-icon:after,
+     html:not(.touch):not(.no-touch) #mini-cart:hover .cart-popup {
+          display: block;
+     }
+     @media (max-width: 991px) {
+          #header.sticky-header .main-menu-wrap,
+          .main-menu-wrap {
+               display: none;
+          }
+     }
+     .main-menu-wrap .mega-menu > li.menu-item > a {
+          padding: 10px 13px;
+     }
+     #header .main-menu {
+          text-align: left;
+          background: none;
+     }
+     @media (max-width: 991px) {
+          #header .main-menu {
+               display: none;
+          }
+     }
+     #header .main-menu > li.menu-item {
+          margin: 0 1px 0 0;
+     }
+     #header .main-menu > li.menu-item:last-child {
+          margin-right: 0;
+     }
+     #header .mobile-toggle {
+          cursor: pointer;
+          padding: 7px 13px;
+          text-align: center;
+          display: none;
+          font-size: 13px;
+          vertical-align: middle;
+          margin: 8px 0 8px 1em;
+          line-height: 20px;
+          border-radius: 0.25rem;
+     }
+     #header .mobile-toggle:first-child {
+          margin-left: 0;
+     }
+     @media (max-width: 991px) {
+          #header .mobile-toggle {
+               display: inline-block;
+          }
+     }
+     #header.sticky-header .mobile-toggle {
+          margin-top: 0;
+          margin-bottom: 0;
+     }
+     #header .header-bottom .header-row,
+     #header .header-main .header-row {
+          display: flex;
+     }
+     #header .header-main .header-row > div {
+          display: flex;
+     }
+     .header-row {
+          flex-flow: row nowrap;
+          align-items: center;
+          justify-content: space-between;
+          width: 100%;
+     }
+     .header-row > div {
+          align-items: center;
+          max-height: 100%;
+          max-width: 100%;
+     }
+     .header-row .header-left,
+     .header-row .header-right {
+          display: flex;
+          flex-wrap: wrap;
+     }
+     .header-row .header-left {
+          margin-right: auto;
+          justify-content: flex-start;
+     }
+     .header-row .header-right {
+          margin-left: auto;
+          justify-content: flex-end;
+     }
+     .header-col > :not(.header-col-wide) {
+          margin-left: 0.875rem;
+     }
+     .header-col > :not(.header-col-wide):first-child {
+          margin-left: 0;
+     }
+     .searchform {
+          position: relative;
+     }
+     .searchform .btn i {
+          line-height: 1;
+          padding: 0.5rem 0.4rem;
+     }
+     #side-nav-panel {
+          position: fixed;
+          height: 100%;
+          width: 260px;
+          padding-top: 27px;
+          top: 0;
+          bottom: 0;
+          font-size: 0.9em;
+          left: 0;
+          overflow-x: hidden;
+          overflow-y: auto;
+          z-index: 9001;
+          background-color: #1d1e20;
+          color: #fff;
+          -webkit-overflow-scrolling: touch;
+          transform: translateX(-260px);
+          transition: transform 0.3s;
+     }
+     #side-nav-panel .side-nav-panel-close {
+          display: block;
+          color: #fff;
+          position: absolute;
+          top: 10px;
+          right: 14.5px;
+          text-align: center;
+          text-decoration: none;
+          padding: 4px 8px;
+          line-height: 1em;
+     }
+     #side-nav-panel .accordion-menu > li.menu-item > a {
+          text-transform: uppercase;
+     }
+     #side-nav-panel .accordion-menu .arrow {
+          font-family: "porto";
+          font-size: 15px;
+     }
+     #side-nav-panel .accordion-menu .arrow:before {
+          content: "";
+     }
+     #side-nav-panel .accordion-menu li:not(:last-child) {
+          border-bottom: 1px solid #242527;
+     }
+     .panel-overlay {
+          opacity: 0;
+     }
+     #side-nav-panel .accordion-menu {
+          font-size: 1em;
+     }
+     #side-nav-panel .accordion-menu .arrow {
+          right: 5px;
+     }
+     #side-nav-panel .mobile-menu {
+          font-size: 1em;
+     }
+     #side-nav-panel .menu-wrap {
+          margin: 15px 0;
+          padding: 0 10px;
+     }
+     #side-nav-panel .share-links {
+          font-size: 1em;
+          margin: 15px 0;
+          padding: 0 5px;
+          text-align: center;
+     }
+     .sidebar-overlay {
+          display: none;
+     }
+     .section {
+          margin-top: 30px;
+          margin-bottom: 30px;
+          padding: 50px 0;
+          background-color: var(--porto-gray-7);
+          border-top: 5px solid var(--porto-gray-8);
+     }
+     .section.section-parallax {
+          background-color: transparent;
+          border: 0;
+     }
+     .section.section-no-borders {
+          border-width: 0;
+     }
+     .section-parallax > * {
+          position: relative;
+          z-index: 1;
+     }
+     div.wpcf7-response-output {
+          padding: 15px;
+          margin: 0 0 20px;
+          border: 1px solid transparent;
+     }
+     .footer {
+          font-size: 0.9em;
+          padding: 0;
+          position: relative;
+          clear: both;
+     }
+     .footer a:not(.btn) {
+          transition: 0.1s ease-in-out;
+     }
+     .footer p {
+          font-size: 1em;
+     }
+     .footer form {
+          opacity: 0.85;
+     }
+     .footer .widget-title {
+          margin-bottom: 1rem;
+          font-size: 1em;
+     }
+     .footer .widget-title {
+          font-weight: 600;
+     }
+     .footer .widget > div > ul {
+          font-size: 1em;
+     }
+     .footer .widget p {
+          margin-top: -3px;
+          margin-bottom: 13px;
+     }
+     .footer .widget.contact-info .contact-details strong {
+          font-weight: 400;
+     }
+     #footer .footer-main > .container {
+          padding-top: 4.75rem;
+          padding-bottom: 2.4rem;
+     }
+     #footer .container {
+          position: relative;
+     }
+     #footer .container input:focus {
+          box-shadow: none;
+     }
+     #footer .footer-bottom {
+          padding: 22px 0;
+          font-size: 0.9em;
+     }
+     #footer .footer-bottom .container {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+     }
+     @media (max-width: 991px) {
+          #footer .footer-bottom .container {
+               display: block;
+          }
+     }
+     #footer .footer-bottom .container > div {
+          flex: 1;
+     }
+     @media (max-width: 991px) {
+          #footer .footer-bottom .container > div {
+               padding: 10px 0;
+               text-align: left;
+          }
+     }
+     #footer .footer-bottom .footer-left {
+          padding: 10px 8px 10px 0;
+          text-align: left;
+     }
+     #footer .footer-bottom .footer-right {
+          padding: 10px 0 10px 8px;
+          text-align: right;
+     }
+     #footer .footer-bottom .widget {
+          display: inline-block;
+          margin: 0;
+     }
+     @media (max-width: 991px) {
+          #footer .footer-bottom .widget {
+               display: block;
+               margin-top: 5px;
+          }
+     }
+     #footer .footer-bottom .footer-right .widget {
+          margin-left: calc(var(--porto-column-spacing) + 5px);
+     }
+     @media (max-width: 991px) {
+          #footer .footer-bottom .footer-right .widget {
+               margin-left: 0;
+          }
+     }
+     .container-fluid:after,
+     .container-fluid:before,
+     .container:after,
+     .container:before {
+          content: none;
+     }
+     .page-wrapper {
+          position: relative;
+          left: 0;
+     }
+     @media (max-width: 767px) {
+          .page-wrapper {
+               overflow: hidden;
+          }
+     }
+     @media (max-width: 991px) {
+          .container {
+               max-width: none;
+          }
+     }
+     .header-wrapper {
+          position: relative;
+     }
+     #main {
+          position: relative;
+          margin-left: auto;
+          margin-right: auto;
+          background: var(--porto-body-bg);
+     }
+     #main.wide.column1 .main-content {
+          padding-top: 0;
+          padding-bottom: 0;
+     }
+     .main-content {
+          padding-top: 35px;
+          padding-bottom: 40px;
+     }
+     .no-breadcrumbs .main-content {
+          padding-top: 20px;
+     }
+     .clearfix {
+          overflow: visible;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/uploads/porto_styles/shortcodes.css?ver=6.3.3 ; media=all */
+@media all {
+     .container-fluid .top-row {
+          margin-left: calc(var(--porto-fluid-spacing) * -1);
+          margin-right: calc(var(--porto-fluid-spacing) * -1);
+     }
+     .vc_column_container > .vc_column-inner {
+          padding: 0;
+     }
+     .vc_row .vc_column_container > .wpb_wrapper.vc_column-inner {
+          padding-top: 0;
+     }
+     .porto-icon {
+          display: inline-block;
+          font-size: 32px;
+          height: 2em;
+          width: 2em;
+          text-align: center;
+          line-height: 2em;
+          box-sizing: content-box !important;
+     }
+     .porto-icon i {
+          line-height: inherit;
+     }
+     .porto-sicon-box .porto-icon {
+          transition: transform 0.2s linear;
+     }
+     .porto-sicon-title {
+          margin: 3px 0;
+     }
+     .porto-sicon-header > p:last-child {
+          margin-bottom: 0;
+     }
+     .top-icon .porto-sicon-header {
+          display: block;
+          margin: 0 auto;
+     }
+     .top-icon .porto-sicon-header {
+          margin-bottom: 1rem;
+     }
+     .top-icon .porto-sicon-header p:last-child {
+          margin-bottom: 0;
+     }
+     .porto-sicon-box.top-icon {
+          text-align: center;
+     }
+     html .top-icon .porto-just-icon-wrapper {
+          margin-bottom: 15px;
+     }
+     html .top-icon h3.porto-sicon-title {
+          margin-top: 0;
+     }
+     h3.porto-sicon-title {
+          font-size: 1.4em;
+          font-weight: 400;
+          text-transform: none;
+          line-height: 1.2;
+     }
+     .porto-sicon-box {
+          margin-bottom: 20px;
+     }
+     .porto-sicon-box .porto-icon {
+          vertical-align: middle;
+     }
+     .porto-ibanner,
+     .porto-ibanner > img {
+          display: block;
+          position: relative;
+     }
+     .porto-ibanner {
+          z-index: 1;
+          overflow: hidden;
+          margin: 0 0 35px;
+          text-align: center;
+     }
+     .porto-ibanner > img {
+          width: 100%;
+          border: none;
+          padding: 0;
+          margin: 0;
+          min-height: inherit;
+          object-fit: cover;
+          transition: transform 0.5s, opacity 0.5s;
+          -webkit-backface-visibility: hidden;
+     }
+     .porto-ibanner .porto-ibanner-link {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+     }
+     .porto-ibanner a.porto-ibanner-link {
+          display: block;
+          z-index: 7;
+          opacity: 0;
+          background: 0 0;
+     }
+     .wpb_single_image.vc_align_left {
+          text-align: left;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/themes/porto/css/theme_shop.css?ver=6.3.3 ; media=all */
+@media all {
+     .footer form {
+          opacity: 1;
+     }
+     #header .main-menu .popup {
+          left: -15px;
+     }
+     .price {
+          line-height: 1;
+          font-weight: 600;
+          font-size: 2.5714em;
+     }
+     .price {
+          color: var(--porto-color-price);
+     }
+     .product-image {
+          display: block;
+          position: relative;
+          border: none;
+          width: 100%;
+          padding: 0;
+     }
+     .product-image:hover {
+          z-index: 1;
+     }
+     .product-image .inner {
+          display: block;
+          overflow: hidden;
+          position: relative;
+     }
+     .product-image img {
+          display: inline-block;
+          width: 100%;
+          height: auto;
+          transition: opacity 0.3s ease-in-out;
+          transform: translateZ(0);
+     }
+     .product-image {
+          background: var(--porto-normal-bg);
+     }
+     .add-links-wrap .quickview,
+     .add-links .add_to_cart_button,
+     .product-image .yith-compare,
+     .yith-wcwl-add-to-wishlist a,
+     .yith-wcwl-add-to-wishlist span {
+          position: relative;
+          display: inline-block;
+          cursor: pointer;
+          font-size: inherit;
+          text-align: center;
+          vertical-align: top;
+          transition: opacity 0.25s, background-color 0.25s, color 0.25s,
+               border-color 0.25s, left 0.25s, right 0.25s;
+          background-color: var(--porto-shop-add-links-bg-color);
+          border: 1px solid
+               var(--porto-shop-add-links-border-color, transparent);
+          color: var(--porto-shop-add-links-color, #212529);
+     }
+     .add-links-wrap .quickview:before,
+     .yith-wcwl-add-to-wishlist a:before,
+     .yith-wcwl-add-to-wishlist span:before {
+          display: inline-block;
+     }
+     .add-links .button:focus,
+     .add-links .button:hover,
+     .add-links .quickview:hover,
+     .product-image .yith-compare:hover,
+     .yith-wcwl-add-to-wishlist a:hover,
+     li.product-default:hover .add-links .add_to_cart_button {
+          background-color: var(--porto-primary-color);
+          border-color: var(--porto-primary-color);
+          color: var(--porto-primary-color-inverse, #fff);
+     }
+     .add-links .add_to_cart_button,
+     .add-links .yith-compare {
+          padding: 0 0.625rem;
+          font-size: 0.75rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          z-index: 1;
+          white-space: nowrap;
+     }
+     .add-links .add_to_cart_button:before,
+     .add-links .yith-compare:before {
+          content: "";
+          font-family: "Font Awesome 5 Free";
+          font-weight: 900;
+          margin-right: 5px;
+          position: relative;
+          float: left;
+     }
+     .add-links .yith-compare:before {
+          content: "";
+          font-family: "porto";
+     }
+     .product-type-simple .add-links .add_to_cart_button:before {
+          font-family: "Porto";
+          content: "";
+          font-size: 1rem;
+          font-weight: 600;
+          font-size: 0.9375rem;
+     }
+     .add-links .add_to_cart_button,
+     .add-links .quickview,
+     .add-links .yith-compare {
+          height: 36px;
+          line-height: 34px;
+          min-width: 36px;
+     }
+     .yith-wcwl-add-to-wishlist {
+          margin-top: 0;
+          line-height: 1;
+          vertical-align: top;
+     }
+     .yith-wcwl-add-to-wishlist a,
+     .yith-wcwl-add-to-wishlist span {
+          width: 36px;
+          height: 36px;
+          line-height: 34px;
+          padding: 0;
+          text-indent: -9999em;
+     }
+     .yith-wcwl-add-to-wishlist a:before,
+     .yith-wcwl-add-to-wishlist span:before {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          text-indent: 0;
+          font-size: 1rem;
+          font-family: "Porto";
+     }
+     .yith-wcwl-add-to-wishlist .add_to_wishlist:before {
+          content: "";
+     }
+     .yith-wcwl-add-to-wishlist a i {
+          display: none;
+     }
+     .add-links .quickview {
+          width: 36px;
+          text-indent: -9999px;
+          text-transform: uppercase;
+          font-size: 13px;
+     }
+     .add-links .quickview:before {
+          content: "";
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          text-indent: 0;
+          font-family: "Font Awesome 5 Free";
+          font-size: 1.1em;
+          font-weight: 900;
+     }
+     .products-container {
+          list-style: none;
+     }
+     ul.products {
+          margin: 0 0 1em;
+          padding: 0;
+          list-style: none outside;
+     }
+     ul.products li {
+          list-style: none outside;
+     }
+     ul.products {
+          margin-left: calc(var(--porto-column-spacing) * -1);
+          margin-right: calc(var(--porto-column-spacing) * -1);
+     }
+     ul.products li.product-col {
+          padding: 0 var(--porto-column-spacing);
+          margin-bottom: var(--porto-grid-gutter-width, 1.25rem);
+          position: relative;
+          flex: 0 0 auto;
+          width: 100%;
+          max-width: 100%;
+     }
+     ul.products .product-content {
+          padding-bottom: 1px;
+     }
+     ul.products .product-image {
+          margin-bottom: 1rem;
+          min-height: 90px;
+     }
+     ul.products .product-image .img-effect img {
+          position: relative;
+          opacity: 1;
+     }
+     ul.products .product-image .img-effect .hover-image {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 0;
+          bottom: 0;
+          margin: auto;
+          opacity: 0;
+     }
+     ul.products .product-image:hover .img-effect img {
+          opacity: 0;
+     }
+     ul.products .product-image:hover .img-effect .hover-image {
+          opacity: 1;
+     }
+     ul.products h3 {
+          font-size: 0.9375rem;
+          font-weight: 400;
+          line-height: 1.35;
+          margin-bottom: 0.45rem;
+     }
+     ul.products .product-loop-title:hover h3 {
+          color: inherit;
+     }
+     ul.products .rating-wrap {
+          margin: 0 0 0.625rem;
+          position: relative;
+          display: table;
+     }
+     ul.products .rating-wrap .rating-content {
+          display: table-cell;
+     }
+     ul.products .price {
+          display: block;
+          font-size: 1.125rem;
+          margin-bottom: 1rem;
+     }
+     ul.products .add-links {
+          display: inline-block;
+          position: relative;
+          margin-bottom: 1.0714em;
+     }
+     ul.products .add-links .yith-wcwl-add-to-wishlist > div {
+          left: 0;
+          transition: 0.25s;
+     }
+     ul.products .add-links .quickview {
+          right: 0;
+     }
+     ul.products .add-links .quickview,
+     ul.products .add-links .yith-wcwl-add-to-wishlist > div {
+          position: absolute;
+          top: 0;
+          opacity: 0;
+          visibility: hidden;
+          z-index: 3;
+     }
+     li.product:hover .add-links .quickview,
+     li.product:hover .add-links .yith-compare,
+     li.product:hover .add-links .yith-wcwl-add-to-wishlist > div {
+          opacity: 1;
+          visibility: visible;
+     }
+     li.product:hover .add-links .quickview {
+          opacity: 0.85;
+     }
+     li.product:hover .product-image {
+          box-shadow: 0 25px 35px -5px rgba(0, 0, 0, 0.1);
+     }
+     li.product .add-links .quickview:hover {
+          opacity: 1;
+     }
+     li.product-default:hover .add-links .yith-wcwl-add-to-wishlist > div {
+          left: -40px;
+     }
+     li.product-default:hover .add-links .quickview {
+          right: -40px;
+     }
+     ul.pcols-lg-6 li.product-col {
+          width: 16.6666%;
+     }
+     ul.pwidth-lg-6 .product-image {
+          font-size: 0.9em;
+     }
+     ul.pwidth-lg-6 .add-links {
+          font-size: 1em;
+     }
+     @media (min-width: 1400px) {
+          ul.pcols-xl-7 li.product-col {
+               width: 14.2857%;
+          }
+     }
+     .products .product-category {
+          text-align: center;
+     }
+     .products .product-category .thumb-info {
+          min-height: 90px;
+          margin-bottom: 0;
+          text-align: left;
+     }
+     .products .product-category .thumb-info h3 {
+          font-weight: 700;
+          color: inherit;
+     }
+     .products .product-category .thumb-info-title {
+          background: none;
+          max-width: none;
+          width: 100%;
+          bottom: 0;
+          padding: 1.2em 1.5em;
+          margin: 0;
+     }
+     .products .product-category .thumb-info-type {
+          display: block;
+          margin: 0;
+          padding: 0;
+          font-weight: 400;
+          background: none;
+          float: none;
+          opacity: 0.7;
+          line-height: 1.8;
+     }
+     .products .product-category mark {
+          padding: 0;
+          background: none;
+          color: inherit;
+     }
+     .products .product-category .thumb-info-wrapper:after {
+          background: rgba(27, 27, 23, 0.15);
+          z-index: 1;
+          opacity: 1;
+     }
+     .products .product-category:hover .thumb-info-wrapper:after {
+          background: rgba(27, 27, 23, 0.3);
+     }
+     ul.category-color-dark li.product-category .thumb-info-title {
+          color: var(--porto-dark-color);
+     }
+     ul.products.category-pos-outside li.product-category .thumb-info-title {
+          position: static;
+          transform: none;
+          display: block;
+          padding-left: 0;
+          padding-right: 0;
+     }
+     .category-text-center .thumb-info-title {
+          text-align: center;
+     }
+     .porto-products.hide-count li.product-category .thumb-info-type {
+          display: none;
+     }
+     .porto-products.hide-count li.product-category .thumb-info h3 {
+          margin-bottom: 0;
+     }
+     ul.products .woocommerce-loop-product__title {
+          white-space: nowrap;
+          overflow: hidden;
+          text-overflow: ellipsis;
+     }
+     ul.products .add-links .button {
+          overflow: hidden;
+     }
+     li.product-default .price {
+          margin-bottom: 0.875rem;
+     }
+     li.product-default {
+          text-align: center;
+     }
+     li.product-default .rating-wrap {
+          margin-left: auto;
+          margin-right: auto;
+     }
+     .products-slider.owl-carousel .owl-dots.disabled {
+          display: none;
+     }
+     ul.products.owl-loaded li.product-col {
+          width: auto;
+     }
+     li.product-default .add-links .yith-compare {
+          display: none;
+     }
+     .product-image .yith-compare {
+          position: absolute;
+          top: 55px;
+          right: 15px;
+          padding: 0;
+          text-indent: -9999px;
+          border-radius: 18px;
+     }
+     .product-image .yith-compare:before {
+          width: 100%;
+          text-indent: 0;
+     }
+     .product-image > .yith-compare {
+          top: 15px;
+          width: 36px;
+          height: 36px;
+          line-height: 34px;
+          opacity: 0;
+     }
+     .product-image > .yith-compare:before {
+          content: "";
+          font-family: "porto";
+          position: relative;
+          float: left;
+     }
+     li.product-col:hover .product-image > .yith-compare {
+          opacity: 1;
+     }
+     li.product-col .add_to_cart_button,
+     li.product-col .quickview {
+          font-family: var(--porto-add-to-cart-ff), var(--porto-body-ff),
+               sans-serif;
+     }
+     .after-loading-success-message {
+          display: none;
+          font-size: 1.1em;
+          position: fixed;
+          text-align: center;
+          z-index: 20002;
+     }
+     .after-loading-success-message.style-2 {
+          width: 100%;
+          height: 100%;
+          left: 0;
+          top: 0;
+     }
+     .background-overlay {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          opacity: 0.5;
+          background-color: transparent;
+     }
+     .success-message-container {
+          margin: auto;
+          padding: 20px 14px;
+          line-height: 1.4;
+          position: relative;
+          text-align: center;
+          top: 35%;
+          width: 300px;
+          z-index: 1000;
+          background: #fff;
+          box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+     }
+     .success-message-container .msg {
+          display: block;
+          margin-bottom: 10px;
+          font-size: 13px;
+     }
+     .style-2 > .success-message-container {
+          border-top: 4px solid var(--porto-primary-color);
+     }
+     .style-2 > .success-message-container .product-name {
+          font-size: 14px;
+          margin: 5px 0 10px;
+     }
+     .style-2 > .success-message-container button {
+          margin-top: 12px;
+          padding: 8.5px 0;
+          min-width: 133px;
+     }
+     .widget .widget-title {
+          position: relative;
+     }
+     ul.product_list_widget {
+          list-style: none outside;
+          padding: 0;
+          margin: -0.5rem 0;
+          border-width: 0 !important;
+     }
+     ul.product_list_widget li {
+          display: flex;
+          align-items: center;
+          border-width: 0;
+          position: relative;
+          padding: 0.5rem 0;
+     }
+     ul.cart_list li.empty {
+          padding-left: 0;
+     }
+     .widget_shopping_cart {
+          color: var(--porto-body-color);
+     }
+     .products-slider.products li.product .add-links-wrap {
+          line-height: 0;
+     }
+     .products-slider.owl-carousel {
+          margin: 0 !important;
+     }
+     .products-slider.owl-carousel .owl-stage-outer {
+          padding-top: 10px;
+          margin-top: -10px;
+     }
+     .products-slider.owl-carousel .owl-dots {
+          margin-top: 20px;
+     }
+     .products-slider.owl-loaded .product {
+          margin-bottom: 0;
+     }
+     #header .my-account {
+          display: inline-block;
+          padding: 0 0.125rem;
+          font-size: 24px;
+          vertical-align: middle;
+     }
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/uploads/porto_styles/dynamic_style.css?ver=6.3.3 ; media=all */
+@media all {
+     .footer {
+          font-size: 13px;
+          line-height: 24px;
+          letter-spacing: 0.065px;
+     }
+     #header .searchform {
+          border-radius: 25px;
+          line-height: 40px;
+     }
+     #header .searchform input,
+     #header .searchform select,
+     #header .searchform .selectric .label,
+     #header .searchform button {
+          height: 40px;
+     }
+     #header .searchform select,
+     #header .searchform .selectric .label {
+          line-height: inherit;
+     }
+     #header .searchform input {
+          border-radius: 20px 0 0 20px;
+     }
+     #header .searchform button {
+          border-radius: 0 20px 20px 0;
+     }
+     #header .searchform .autocomplete-suggestions {
+          left: 15px;
+          right: 15px;
+     }
+     #header .searchform select,
+     #header .searchform .selectric .label {
+          padding: 0 15px 0 10px;
+     }
+     #header .searchform input {
+          padding: 0 15px 0 20px;
+     }
+     #header .searchform button {
+          padding: 0 16px 0 13px;
+     }
+     .header-bottom {
+          min-height: 30px;
+     }
+     #header .searchform-popup .search-toggle {
+          font-size: 20px;
+          width: 40px;
+          height: 40px;
+          line-height: 40px;
+     }
+     #header .searchform button {
+          font-size: 16px;
+          padding: 0 15px;
+     }
+     #header .searchform-popup .search-toggle i:before,
+     #header .searchform button i:before {
+          content: "\e884";
+          font-family: "porto";
+          font-weight: 600;
+     }
+     #header.sticky-header .searchform-popup .searchform {
+          border-color: #cccccc;
+     }
+     #header.sticky-header .searchform-popup .search-toggle:after {
+          border-bottom-color: #cccccc;
+     }
+     @media (min-width: 768px) and (max-width: 1219px) {
+          #header .searchform input {
+               width: 318px;
+          }
+          #header .searchform.searchform-cats input {
+               width: 190px;
+          }
+     }
+     #mini-cart .cart_list::-webkit-scrollbar-thumb,
+     .minicart-offcanvas
+          .widget_shopping_cart_content::-webkit-scrollbar-thumb {
+          border-radius: 3px;
+          background: rgba(204, 204, 204, 0.5);
+     }
+     .mega-menu > li.has-sub:before,
+     .mega-menu > li.has-sub:after {
+          content: "";
+          position: absolute;
+          bottom: -1px;
+          z-index: 112;
+          opacity: 0;
+          left: 50%;
+          border: solid transparent;
+          height: 0;
+          width: 0;
+          pointer-events: none;
+     }
+     .mega-menu > li.has-sub:before {
+          bottom: 0;
+     }
+     .mega-menu > li.sub-ready:hover:before,
+     .mega-menu > li.sub-ready:hover:after {
+          opacity: 1;
+     }
+     .mega-menu > li.has-sub:before {
+          border-bottom-color: #ffffff;
+          border-width: 10px;
+          margin-left: -10px;
+     }
+     .mega-menu > li.has-sub:after {
+          border-bottom-color: #ffffff;
+          border-width: 9px;
+          margin-left: -9px;
+     }
+     .mega-menu.show-arrow > li.has-sub:before {
+          margin-left: -14px;
+     }
+     .mega-menu.show-arrow > li.has-sub:after {
+          margin-left: -13px;
+     }
+     .mega-menu > li.has-sub:before,
+     .mega-menu > li.has-sub:after {
+          bottom: 3px;
+          transition: bottom 0.2s ease-out;
+     }
+     .mega-menu > li.has-sub:before {
+          bottom: 4px;
+     }
+     .mega-menu > li.has-sub:hover:before {
+          bottom: -1px;
+     }
+     .mega-menu > li.has-sub:hover:after {
+          bottom: -2px;
+     }
+     #header .searchform {
+          box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+     }
+     #header .searchform select,
+     #header .searchform button,
+     #header .searchform .selectric .label {
+          height: 34px;
+          line-height: 34px;
+     }
+     #header .searchform input {
+          border: none;
+          line-height: 1.5;
+          height: 34px;
+          width: 200px;
+     }
+     #header .searchform select {
+          border-left: 1px solid #ccc;
+          padding-left: 8px;
+          margin-right: -3px;
+          font-size: 13px;
+     }
+     #header .searchform .selectric {
+          border-left: 1px solid #ccc;
+     }
+     #header .searchform .selectric .label {
+          padding-left: 8px;
+          margin-right: -3px;
+     }
+     #header .searchform button {
+          padding: 0 12px;
+     }
+     .footer .widget_wysija_cont .wysija-input {
+          border-radius: 30px 0 0 30px;
+          padding-left: 1rem;
+     }
+     .footer .widget_wysija_cont .wysija-submit {
+          border-radius: 0 30px 30px 0;
+     }
+     @media (min-width: 1220px) {
+          .ccols-xl-7 > * {
+               --porto-cw: 14.2857%;
+          }
+     }
+     @media (max-width: 1219px) {
+          .mega-menu > li.menu-item > a {
+               padding: 9px 9px 8px;
+          }
+          ul.pcols-md-5 li.product-col {
+               width: 20%;
+          }
+          ul.pwidth-md-5 .product-image {
+               font-size: 0.9em;
+          }
+          ul.pwidth-md-5 .add-links {
+               font-size: 0.95em;
+          }
+          ul.pcols-md-4 li.product-col {
+               width: 25%;
+          }
+     }
+     @media (max-width: 767px) {
+          ul.pcols-xs-3 li.product-col {
+               width: 33.3333%;
+          }
+          ul.pwidth-xs-3 .product-image {
+               font-size: 0.85em;
+          }
+          ul.pwidth-xs-3 .add-links {
+               font-size: 0.85em;
+          }
+     }
+     @media (max-width: 575px) {
+          ul.pcols-ls-2 li.product-col {
+               width: 50%;
+          }
+          ul.pwidth-ls-2 .product-image {
+               font-size: 0.8em;
+          }
+          ul.pwidth-ls-2 .add-links {
+               font-size: 0.85em;
+          }
+     }
+     .thumb-info {
+          border-width: 0;
+          background: none;
+     }
+     .thumb-info .thumb-info-wrapper:after {
+          background: rgba(33, 37, 41, 0.8);
+     }
+     hr {
+          background: rgba(0, 0, 0, 0.08);
+     }
+     input[type="email"],
+     input[type="text"],
+     .form-control,
+     select {
+          background-color: #fff;
+          color: #777;
+          border-color: var(--porto-input-bc);
+     }
+     .star-rating:before {
+          color: rgba(0, 0, 0, 0.16);
+     }
+     body {
+          background-color: #ffffff;
+     }
+     .header-wrapper {
+          background-color: transparent;
+     }
+     #header .header-main {
+          background-color: #ffffff;
+     }
+     #main {
+          background-color: #ffffff;
+     }
+     #footer {
+          background-color: #222529;
+     }
+     #footer .footer-main {
+          background-color: transparent;
+     }
+     #footer .footer-bottom {
+          background-color: #222529;
+     }
+     #header.sticky-header .header-main {
+          background-color: rgba(255, 255, 255, 1);
+          background-repeat: repeat;
+          background-attachment: scroll;
+     }
+     #header.sticky-header .main-menu-wrap {
+          background-color: rgba(255, 255, 255, 1);
+     }
+     #header .searchform {
+          background: #f4f4f4;
+          border-color: #ffffff;
+     }
+     #header {
+          color: #222529;
+     }
+     #header .searchform-popup .search-toggle,
+     .header-wrapper .custom-html a:not(.btn),
+     #header .my-account {
+          color: #222529;
+     }
+     #header .searchform-popup .search-toggle:hover,
+     .header-wrapper .custom-html a:not(.btn):hover,
+     #header .my-account:hover {
+          color: #e2001a;
+     }
+     #header .header-bottom a:not(.btn) {
+          color: #555555;
+     }
+     #header .header-bottom a:not(.btn):hover {
+          color: #e2001a;
+     }
+     .main-menu-wrap {
+          background-color: #ffffff;
+          padding: 0 0 0 0;
+     }
+     #header.sticky-header .main-menu-wrap {
+          padding-top: 0;
+          padding-bottom: 0;
+          padding-left: 0;
+          padding-right: 0;
+     }
+     #header .main-menu > li.menu-item > a {
+          font-family: Open Sans, sans-serif;
+          font-size: 12px;
+          font-weight: 700;
+          line-height: 18px;
+          letter-spacing: -0.12px;
+          color: #555555;
+          padding: 20px 0 20px 0;
+     }
+     #header .main-menu > li.menu-item.active > a {
+          background-color: transparent;
+          color: #e2001a;
+     }
+     #header .main-menu > li.menu-item.active:hover > a,
+     #header .main-menu > li.menu-item:hover > a {
+          background-color: transparent;
+          color: #e2001a;
+     }
+     #header .main-menu .popup a {
+          font-family: Open Sans, sans-serif;
+          font-size: 12px;
+          font-weight: 600;
+          line-height: 20px;
+     }
+     #header .main-menu .narrow ul.sub-menu {
+          background-color: #ffffff;
+     }
+     #header .main-menu .narrow li.menu-item > a {
+          color: #777777;
+          border-bottom-color: #f3f3f3;
+     }
+     #header .main-menu .narrow li.menu-item:hover > a {
+          color: #777777;
+          background-color: #f4f4f4;
+     }
+     #header .searchform input,
+     #header .searchform select,
+     #header .searchform button,
+     #header .searchform .selectric .label,
+     #header .searchform .selectric-items li,
+     #header .searchform .selectric-items li:hover,
+     #header .searchform .selectric-items li.selected {
+          color: #8d8d8d;
+     }
+     #header .searchform input:-ms-input-placeholder {
+          color: #8d8d8d;
+     }
+     #header .searchform input::-ms-input-placeholder {
+          color: #8d8d8d;
+     }
+     #header .searchform input::placeholder {
+          color: #8d8d8d;
+     }
+     #header .searchform input,
+     #header .searchform select,
+     #header .searchform .selectric,
+     #header .searchform .autocomplete-suggestions,
+     #header .searchform .selectric-items {
+          border-color: #ffffff;
+     }
+     #header .searchform button {
+          color: #222529;
+     }
+     #header .searchform select option,
+     #header .searchform .autocomplete-suggestions,
+     #header .searchform .selectric-items {
+          color: #8d8d8d;
+          background-color: #f4f4f4;
+     }
+     #header .searchform .selectric-items li:hover,
+     #header .searchform .selectric-items li.selected {
+          background-color: #dbdbdb;
+     }
+     #header .searchform-popup .search-toggle:after {
+          border-bottom-color: #cccccc;
+     }
+     @media (max-width: 991px) {
+          #header .searchform {
+               border-color: #cccccc;
+          }
+     }
+     #header.sticky-header .searchform-popup .search-toggle {
+          color: #222529;
+     }
+     #header.sticky-header .searchform-popup .search-toggle:hover {
+          color: #222529;
+     }
+     #header .mobile-toggle {
+          color: #1d2127;
+          background-color: transparent;
+          font-size: 20px;
+     }
+     #header .mobile-toggle:first-child {
+          padding-left: 1px;
+     }
+     @media (max-width: 1219px) {
+          #header .main-menu > li.menu-item > a {
+               padding: 15px 0 15px 0;
+          }
+     }
+     .sticky-header #mini-cart:not(.minicart-opened) {
+          display: none !important;
+     }
+     #mini-cart .minicart-icon {
+          font-size: 26px;
+     }
+     #mini-cart .cart-popup {
+          border: 1px solid #f0f0f0;
+     }
+     #mini-cart .cart-icon:after {
+          border-color: #f0f0f0;
+     }
+     #mini-cart {
+          background: #ffffff;
+     }
+     #side-nav-panel {
+          background-color: #1d2127;
+     }
+     #side-nav-panel .accordion-menu li.menu-item.active > a {
+          background-color: #282e36;
+     }
+     #side-nav-panel,
+     #side-nav-panel .accordion-menu {
+          color: #ffffff;
+     }
+     #side-nav-panel .accordion-menu li.menu-item > a {
+          color: #ffffff;
+     }
+     #side-nav-panel::-webkit-scrollbar {
+          width: 5px;
+     }
+     #side-nav-panel::-webkit-scrollbar-thumb {
+          border-radius: 0;
+          background: rgba(204, 204, 204, 0.5);
+     }
+     .page-wrapper {
+          transition: left 0.3s;
+     }
+     @media (max-width: 991px) {
+          #side-nav-panel .searchform select {
+               display: none;
+          }
+          #side-nav-panel .searchform {
+               padding: 0 16px;
+          }
+          #side-nav-panel .searchform .text {
+               flex: 1;
+          }
+          #side-nav-panel .searchform input[type="text"] {
+               width: 100%;
+               height: 38px;
+               background: none;
+               border: none;
+               font-size: inherit;
+          }
+          #side-nav-panel .searchform .btn {
+               background: none;
+               border: none;
+               box-shadow: none;
+               padding: 0.625rem 0.875rem;
+               color: #ffffff;
+          }
+     }
+     @media (max-width: 575px) {
+          #header .searchform-popup {
+               display: none;
+          }
+     }
+     #side-nav-panel .accordion-menu li.menu-item.active > a {
+          color: #ffffff;
+     }
+     #footer .footer-main > .container {
+          padding-top: 4rem;
+          padding-bottom: 1.5rem;
+     }
+     .footer .contact-details strong {
+          color: #ffffff;
+     }
+     .footer .footer-bottom {
+          color: #777777;
+     }
+     html #topcontrol:hover {
+          color: #e2001a;
+     }
+     .share-links a {
+          background-color: #e2001a;
+     }
+     .text-color-primary {
+          color: #e2001a !important;
+     }
+     .popup .sub-menu {
+          text-transform: uppercase;
+     }
+     .footer,
+     .footer p,
+     .footer .widget > div > ul li {
+          color: #a8a8a8;
+     }
+     .footer .widget > div > ul,
+     .footer .widget > div > ul li {
+          border-color: rgba(168, 168, 168, 0.3);
+     }
+     .footer a:not(.btn) {
+          color: #a8a8a8;
+     }
+     .footer a:hover {
+          color: #ffffff;
+     }
+     .footer h3,
+     .footer h4,
+     .footer .widget-title {
+          color: #ffffff;
+     }
+     .footer .footer-bottom a {
+          color: #ffffff;
+     }
+     .footer .footer-bottom a:hover {
+          color: #ffffff;
+     }
+     @media (max-width: 575px) {
+          #footer {
+               margin-bottom: 3.75rem;
+          }
+     }
+}
+/*! CSS Used from: Embedded */
+.vc_custom_1569504695057 {
+     background-color: #f6f7f9 !important;
+}
+.wpb_custom_c86c2fb53cae9eced42d4b8900a042f3 {
+     --porto-el-spacing: 0px;
+}
+.main-content {
+     padding-top: 0;
+}
+#header {
+     border-bottom: 1px solid #f4f4f4;
+}
+#header .main-menu > li.menu-item {
+     margin-right: 35px;
+}
+#header .wishlist i,
+#header .my-account i {
+     font-size: 26px;
+     display: block;
+}
+#header .searchform-popup .search-toggle {
+     width: 30px;
+}
+#header .searchform input {
+     height: 40px;
+}
+#header .searchform select,
+#header .searchform button,
+#header .searchform .selectric .label {
+     height: 40px;
+     line-height: 40px;
+}
+#header .searchform .selectric .label {
+     padding-left: 15px;
+}
+@media (min-width: 992px) {
+     #header .header-main .header-left {
+          flex: 0 0 16.6666%;
+     }
+     #header .header-main .header-right,
+     #header .searchform .text {
+          flex: 1;
+     }
+     #header .searchform-popup {
+          flex: 1;
+          padding-left: 10px;
+     }
+     #header .searchform {
+          width: 100%;
+          box-shadow: none;
+     }
+     #header .searchform.searchform-cats input {
+          width: 100%;
+     }
+}
+.header-bottom .container {
+     position: relative;
+}
+.header-bottom .container:before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 10px;
+     right: 10px;
+     width: calc(100% - 20px);
+     border-top: 1px solid #f4f4f4;
+}
+.top-icon .porto-sicon-header {
+     margin-bottom: 0.75rem;
+}
+.top-icon .porto-sicon-header p {
+     font-family: Poppins;
+     margin-bottom: 0;
+}
+.widget .widget-title,
+#footer .widget-title {
+     font-size: 1rem;
+}
+.products-slider.owl-carousel .product {
+     margin-bottom: 25px;
+     margin-top: 10px;
+}
+.products-slider.owl-carousel .owl-item:hover {
+     z-index: 2;
+}
+.add-links .add_to_cart_button {
+     padding: 0 1.2em;
+     color: #6f6e6b;
+}
+.products-slider.owl-carousel .owl-stage-outer {
+     padding-left: 10px;
+     padding-right: 10px;
+     margin-left: -10px;
+     margin-right: -10px;
+}
+ul.products .product-col .add-links > *:hover,
+ul.products .product-col .add-links > *:active,
+ul.products .product-col .add-links > *:focus,
+ul.products .product-col .add-links .add_to_wishlist:hover,
+ul.products .product-col .add-links .add_to_wishlist:active,
+ul.products .product-col .add-links .add_to_wishlist:focus {
+     background-color: #2b2b2d;
+     border-color: #2b2b2d;
+}
+@media (max-width: 575px) {
+     .products-slider.owl-carousel .owl-stage-outer {
+          padding-left: 2px;
+          padding-right: 2px;
+          margin-left: -2px;
+          margin-right: -2px;
+     }
+}
+li.product-category .thumb-info,
+li.product-category .thumb-info img,
+li.product-category .thumb-info-wrapper:after {
+     border-radius: 50%;
+}
+ul.category-color-dark li.product-category .thumb-info-title {
+     background: #fff;
+     padding: 0.75rem 0.5rem 1.25rem;
+}
+#footer .footer-main .container:after {
+     content: "";
+     display: block;
+     position: absolute;
+     left: 10px;
+     right: 10px;
+     bottom: 0;
+     border-bottom: 1px solid #313438;
+}
+#footer .contact-details i {
+     display: none;
+}
+#footer .contact-details span {
+     padding-left: 0;
+     line-height: 1.4;
+}
+#footer .contact-details strong {
+     padding-left: 0;
+     text-transform: uppercase;
+     line-height: 1.4;
+}
+#footer .share-links a {
+     width: 40px;
+     height: 40px;
+     border-radius: 20px;
+     border: 1px solid #313438;
+     box-shadow: none;
+}
+#footer .widget_wysija_cont .wysija-paragraph {
+     display: block;
+     margin-bottom: 1rem;
+}
+#footer .widget_wysija_cont .wysija-input {
+     border-radius: 30px;
+     background: #292c30;
+     padding-left: 1.5rem;
+     font-size: 0.8125rem;
+}
+#footer .widget_wysija_cont .wysija-submit {
+     border-radius: 30px;
+     padding: 0 1.75rem;
+     font-size: 0.8125rem;
+     font-weight: 700;
+}
+.brand-slider img {
+     max-width: 130px;
+}
+/*! CSS Used from: Embedded ; media=all */
+@media all {
+     .minicart-svg {
+          fill: none;
+          stroke: #fff;
+          stroke-linecap: round;
+          stroke-linejoin: round;
+          stroke-width: 2px;
+     }
+}
+/*! CSS Used from: Embedded */
+.heading499993344 .heading-tag:before,
+.heading499993344 .heading-tag:after {
+     border-top-color: #e7e7e7 !important;
+}
+/*! CSS Used from: Embedded */
+#porto-product-categories-5380 li.product-category .thumb-info-wrapper:after {
+     background-color: rgba(27, 27, 23, 0);
+}
+#porto-product-categories-5380
+     li.product-category:hover
+     .thumb-info-wrapper:after {
+     background-color: rgba(27, 27, 23, 0.15);
+}
+/*! CSS Used from: Embedded */
+.heading65056032 .heading-tag:before,
+.heading65056032 .heading-tag:after {
+     border-top-color: #e7e7e7 !important;
+}
+/*! CSS Used from: https://www.holzelektro.com/wp-content/plugins/revslider/public/assets/css/rs6.css?ver=6.5.24 ; media=all */
+@media all {
+     rs-sbg-px {
+          pointer-events: none;
+     }
+     rs-module-wrap {
+          visibility: hidden;
+     }
+     rs-module-wrap,
+     rs-module-wrap * {
+          box-sizing: border-box;
+          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     }
+     rs-module-wrap {
+          position: relative;
+          z-index: 1;
+          width: 100%;
+          display: block;
+     }
+     rs-fw-forcer {
+          display: block;
+          width: 100%;
+          pointer-events: none;
+     }
+     rs-module {
+          position: relative;
+          overflow: hidden;
+          display: block;
+     }
+     rs-sbg {
+          display: block;
+          pointer-events: none;
+     }
+     rs-sbg-px,
+     rs-sbg-wrap {
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          z-index: 0;
+          width: 100%;
+          height: 100%;
+          display: block;
+     }
+     a.rs-layer,
+     a.rs-layer:-webkit-any-link {
+          text-decoration: none;
+     }
+     rs-module a {
+          box-shadow: none;
+     }
+     rs-module img {
+          max-width: none !important;
+          transition: none;
+          margin: 0px;
+          padding: 0px;
+          border: none;
+     }
+     rs-slides,
+     rs-slide,
+     rs-slide:before {
+          position: absolute;
+          text-indent: 0em;
+          top: 0px;
+          left: 0px;
+     }
+     rs-slide,
+     rs-slide:before {
+          display: block;
+          visibility: hidden;
+     }
+     rs-module rs-layer,
+     rs-module .rs-layer {
+          opacity: 0;
+          position: relative;
+          visibility: hidden;
+          display: block;
+          -webkit-font-smoothing: antialiased !important;
+          -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+          -moz-osx-font-smoothing: grayscale;
+          z-index: 1;
+          font-display: swap;
+     }
+     rs-layer-wrap,
+     rs-module-wrap,
+     rs-module .rs-layer,
+     rs-module img {
+          user-select: none;
+     }
+     rs-module rs-mask-wrap .rs-layer,
+     rs-module rs-mask-wrap *:last-child {
+          margin-bottom: 0;
+     }
+     rs-layer:not(.rs-wtbindex),
+     .rs-layer:not(.rs-wtbindex),
+     .rs-layer *:not(.rs-wtbindex) {
+          outline: none !important;
+     }
+     rs-layer-wrap,
+     rs-loop-wrap,
+     rs-mask-wrap {
+          display: block;
+     }
+     rs-layer-wrap,
+     rs-mask-wrap {
+          transform-style: flat;
+     }
+     rs-mask-wrap {
+          overflow: hidden;
+     }
+     rs-fullwidth-wrap {
+          position: relative;
+          width: 100%;
+          height: auto;
+          display: block;
+          overflow: visible;
+          max-width: none !important;
+     }
+     .rs-layer img,
+     rs-layer img {
+          vertical-align: top;
+     }
+     .rev-btn,
+     .rev-btn:visited {
+          outline: none !important;
+          box-shadow: none;
+          text-decoration: none !important;
+          box-sizing: border-box;
+          cursor: pointer;
+     }
+     rs-progress {
+          visibility: hidden;
+          position: absolute;
+          z-index: 200;
+          width: 100%;
+          height: 100%;
+     }
+     rs-progress-bar {
+          display: block;
+          z-index: 20;
+          box-sizing: border-box;
+          background-clip: content-box;
+          position: absolute;
+          line-height: 0px;
+          width: 100%;
+          height: 100%;
+     }
+     .rs-layer img {
+          background: transparent;
+          -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)";
+          filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
+     }
+     a.rs-layer {
+          transition: none;
+     }
+     rs-sbg canvas {
+          overflow: hidden;
+          z-index: 5;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+     }
+}
+/*! CSS Used keyframes */
+@-webkit-keyframes spin {
+     0% {
+          transform: rotate(0deg);
+     }
+     to {
+          transform: rotate(1turn);
+     }
+}
+@keyframes spin {
+     0% {
+          transform: rotate(0deg);
+     }
+     to {
+          transform: rotate(1turn);
+     }
+}
+@keyframes spin {
+     from {
+          transform: rotate(0deg);
+     }
+     to {
+          transform: rotate(360deg);
+     }
+}
+@-webkit-keyframes spin {
+     0% {
+          -webkit-transform: rotate(0deg);
+     }
+     100% {
+          -webkit-transform: rotate(360deg);
+     }
+}
+@keyframes spin {
+     0% {
+          transform: rotate(0deg);
+     }
+     100% {
+          transform: rotate(360deg);
+     }
+}
+@keyframes spin {
+     0% {
+          transform: rotate(0deg);
+     }
+     to {
+          transform: rotate(359deg);
+     }
+}
+@keyframes blink {
+     from {
+          opacity: 0;
+     }
+     50% {
+          opacity: 1;
+     }
+     to {
+          opacity: 0;
+     }
+}
+@-webkit-keyframes fadeIn {
+     from {
+          opacity: 0;
+     }
+     to {
+          opacity: 1;
+     }
+}
+@keyframes fadeIn {
+     from {
+          opacity: 0;
+     }
+     to {
+          opacity: 1;
+     }
+}
+@keyframes fadeIn {
+     0% {
+          opacity: 0;
+     }
+     to {
+          opacity: 1;
+     }
+}
+@keyframes fadeInUp {
+     0% {
+          opacity: 0;
+          transform: translateY(30px);
+     }
+     to {
+          opacity: 1;
+          transform: translateY(0);
+     }
+}
+@keyframes arrowFadeInDown {
+     0% {
+          opacity: 0.8;
+          transform: translateY(-10px) rotate(-45deg);
+     }
+     to {
+          opacity: 1;
+          transform: translateY(0) rotate(-45deg);
+     }
+}
+@keyframes menuFadeInDown {
+     0% {
+          opacity: 0.8;
+          transform: translateY(-10px);
+     }
+     to {
+          opacity: 1;
+          transform: translateY(0);
+     }
+}
+/*! CSS Used fontfaces */
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 400;
+     font-display: block;
+     src: url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.eot);
+     src: url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.eot#iefix)
+               format("embedded-opentype"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.woff2)
+               format("woff2"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.woff)
+               format("woff"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.ttf)
+               format("truetype"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-regular-400.svg#fontawesome)
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 900;
+     font-display: block;
+     src: url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.eot);
+     src: url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.eot#iefix)
+               format("embedded-opentype"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.woff2)
+               format("woff2"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.woff)
+               format("woff"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.ttf)
+               format("truetype"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-solid-900.svg#fontawesome)
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 300;
+     src: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.eot);
+     src: url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.eot#iefix)
+               format("embedded-opentype"),
+          url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.woff2)
+               format("woff2"),
+          url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.woff)
+               format("woff"),
+          url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.ttf)
+               format("truetype"),
+          url(https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-light-300.svg#fontawesome)
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 400;
+     src: url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.eot");
+     src: url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.eot#iefix")
+               format("embedded-opentype"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.woff2")
+               format("woff2"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.woff")
+               format("woff"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.ttf")
+               format("truetype"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-regular-400.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 900;
+     src: url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.eot");
+     src: url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.eot#iefix")
+               format("embedded-opentype"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.woff2")
+               format("woff2"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.woff")
+               format("woff"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.ttf")
+               format("truetype"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-solid-900.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 400;
+     font-display: block;
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.eot");
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.eot#iefix")
+               format("embedded-opentype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.woff2")
+               format("woff2"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.woff")
+               format("woff"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.ttf")
+               format("truetype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-regular-400.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Free";
+     font-style: normal;
+     font-weight: 900;
+     font-display: block;
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.eot");
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.eot#iefix")
+               format("embedded-opentype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.woff2")
+               format("woff2"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.woff")
+               format("woff"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.ttf")
+               format("truetype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-solid-900.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKOzY.woff2)
+          format("woff2");
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu5mxKOzY.woff2)
+          format("woff2");
+     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7mxKOzY.woff2)
+          format("woff2");
+     unicode-range: U+1F00-1FFF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4WxKOzY.woff2)
+          format("woff2");
+     unicode-range: U+0370-03FF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7WxKOzY.woff2)
+          format("woff2");
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu7GxKOzY.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 400;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu4mxK.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+1F00-1FFF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0370-03FF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 500;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmEU9fBBc4.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+1F00-1FFF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0370-03FF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Roboto";
+     font-style: normal;
+     font-weight: 700;
+     font-display: swap;
+     src: url(https://fonts.gstatic.com/s/roboto/v30/KFOlCnqEu92Fr1MmWUlfBBc4.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+1F00-1FFF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0370-03FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 400;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+1F00-1FFF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0370-03FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 500;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+1F00-1FFF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0370-03FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 600;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 700;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 700;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 700;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+1F00-1FFF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 700;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0370-03FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 700;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 700;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 700;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 700;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 800;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSKmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+          U+FE2E-FE2F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 800;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSumu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0301, U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 800;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSOmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+1F00-1FFF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 800;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSymu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0370-03FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 800;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS2mu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0590-05FF, U+200C-2010, U+20AA, U+25CC, U+FB1D-FB4F;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 800;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSCmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169,
+          U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 800;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTSGmu1aB.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Open Sans";
+     font-style: normal;
+     font-weight: 800;
+     font-stretch: 100%;
+     src: url(https://fonts.gstatic.com/s/opensans/v34/memvYaGs126MiZpBA-UvWbX2vVnXBbObj2OVTS-muw.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Simple-Line-Icons";
+     font-weight: normal;
+     font-display: swap;
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/Simple-Line-Icons/Simple-Line-Icons.eot");
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/Simple-Line-Icons/Simple-Line-Icons.eot#iefix")
+               format("embedded-opentype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/Simple-Line-Icons/Simple-Line-Icons.ttf")
+               format("truetype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/Simple-Line-Icons/Simple-Line-Icons.woff")
+               format("woff"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/Simple-Line-Icons/Simple-Line-Icons.svg#Simple-Line-Icons")
+               format("svg");
+     font-style: normal;
+}
+@font-face {
+     font-family: "porto";
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/porto-font/porto.eot");
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/porto-font/porto.eot#iefix")
+               format("embedded-opentype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/porto-font/porto.woff2")
+               format("woff2"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/porto-font/porto.woff")
+               format("woff"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/porto-font/porto.ttf")
+               format("truetype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/porto-font/porto.svg#porto")
+               format("svg");
+     font-weight: normal;
+     font-style: normal;
+     font-display: swap;
+}
+@font-face {
+     font-family: "Font Awesome 5 Brands";
+     font-style: normal;
+     font-weight: 400;
+     font-display: block;
+     src: url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-brands-400.eot);
+     src: url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-brands-400.eot#iefix)
+               format("embedded-opentype"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-brands-400.woff2)
+               format("woff2"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-brands-400.woff)
+               format("woff"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-brands-400.ttf)
+               format("truetype"),
+          url(https://www.holzelektro.com/wp-content/plugins/dokan-lite/assets/vendors/font-awesome/webfonts/fa-brands-400.svg#fontawesome)
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Brands";
+     font-style: normal;
+     font-weight: normal;
+     src: url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-brands-400.eot");
+     src: url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-brands-400.eot#iefix")
+               format("embedded-opentype"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-brands-400.woff2")
+               format("woff2"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-brands-400.woff")
+               format("woff"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-brands-400.ttf")
+               format("truetype"),
+          url("https://www.holzelektro.com/wp-content/plugins/wc-frontend-manager/assets/fonts/font-awesome/webfonts/fa-brands-400.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Font Awesome 5 Brands";
+     font-style: normal;
+     font-weight: 400;
+     font-display: block;
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-brands-400.eot");
+     src: url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-brands-400.eot#iefix")
+               format("embedded-opentype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-brands-400.woff2")
+               format("woff2"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-brands-400.woff")
+               format("woff"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-brands-400.ttf")
+               format("truetype"),
+          url("https://www.holzelektro.com/wp-content/themes/porto/fonts/fontawesome/fa-brands-400.svg#fontawesome")
+               format("svg");
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJbecmNE.woff2)
+          format("woff2");
+     unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+          U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJnecmNE.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 400;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfecg.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z11lFc-K.woff2)
+          format("woff2");
+     unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+          U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1JlFc-K.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 500;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 600;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z11lFc-K.woff2)
+          format("woff2");
+     unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+          U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 600;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 600;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z11lFc-K.woff2)
+          format("woff2");
+     unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+          U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1JlFc-K.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 700;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 800;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z11lFc-K.woff2)
+          format("woff2");
+     unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8,
+          U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 800;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1JlFc-K.woff2)
+          format("woff2");
+     unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB,
+          U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+@font-face {
+     font-family: "Poppins";
+     font-style: normal;
+     font-weight: 800;
+     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlFQ.woff2)
+          format("woff2");
+     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6,
+          U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193,
+          U+2212, U+2215, U+FEFF, U+FFFD;
+}
