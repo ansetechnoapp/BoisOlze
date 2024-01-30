@@ -1,0 +1,27 @@
+name: Upload to FTP
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Exclude wp-config.php
+        run: |
+          rm -f wp-config.php
+
+      - name: Transfer public folder
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.FTP_SERVER_wp_sitetest }}
+          username: ${{ secrets.FTP_USERNAME_wp_sitetest }}
+          password: ${{ secrets.FTP_PASSWORD_wp_sitetest }}
+          server-dir: "./sitetest/"
+          local-dir: "./"
+          exclude: "**/wp-config.php"

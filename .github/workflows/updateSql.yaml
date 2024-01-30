@@ -1,0 +1,34 @@
+name: Mise à jour de la base de données SQL
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout du code
+        uses: actions/checkout@v4
+
+      - name: drop table
+        uses: calxus/mysql-deploy-action@v1
+        with:
+          DATABASE_HOST: ${{ secrets.DB_HOSTNAME }}
+          DATABASE_PORT: '3306'
+          DATABASE_NAME: ${{ secrets.DB_NAME }}
+          DATABASE_USERNAME: ${{ secrets.DB_USER }}
+          DATABASE_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DATABASE_SCRIPT: './anscod/database/droptable.sql'
+
+      - name: Mettre à jour la base de données
+        uses: calxus/mysql-deploy-action@v1
+        with:
+          DATABASE_HOST: ${{ secrets.DB_HOSTNAME }}
+          DATABASE_PORT: '3306'
+          DATABASE_NAME: ${{ secrets.DB_NAME }}
+          DATABASE_USERNAME: ${{ secrets.DB_USER }}
+          DATABASE_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DATABASE_SCRIPT: './anscod/database/wp_site2.sql'
